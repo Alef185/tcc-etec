@@ -94,13 +94,22 @@
                     this.messages = response.data.messages
                 })  
             },
-            sendMessage: function() {
+            sendMessage: async function() {
 
-                axios.post('api/messages/store', {
+                await axios.post('api/messages/store', {
                     'content':this.message,
                     'to': this.userActive.id
                 }).then(response => {
-                    console.log(response)
+
+                    this.messages.push({
+                        'from': '1',
+                        'to': this.userActive.id,
+                        'content': this.message,
+                        'created_at': new Date().toISOString(),
+                        'updated_at': new Date().toISOString(),
+                    })
+
+                    this.message = ''
                 })
                 console.log(this.message)
             },
