@@ -5,12 +5,15 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Message;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Response;
 
 class MessageController extends Controller
 {
     public function listMessages(User $user)
     {
+        // var_dump($user);
         $userFrom = Auth::user()->id;
         $userTo = $user->id;
         // [from = $userFrom && to = $userTo]
