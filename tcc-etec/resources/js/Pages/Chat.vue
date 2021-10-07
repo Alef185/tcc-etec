@@ -133,6 +133,16 @@
                 this.users = response.data.users
                 // console.log(response)
             })
+
+            Echo.private(`user.${this.user.id}`).listen('.SendMessage', async (e) => {
+                if(this.userActive && this.userActive.id === e.message.from) {
+                    await this.messages.push(e.message)
+                    this.scrollToBottom()
+                } else {
+
+                }
+                console.log(e)
+            })
         },
         props: {
             auth: Object,

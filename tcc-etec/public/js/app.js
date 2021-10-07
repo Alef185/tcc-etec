@@ -21037,6 +21037,41 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     axios.get('api/users').then(function (response) {
       _this3.users = response.data.users; // console.log(response)
     });
+    Echo["private"]("user.".concat(this.user.id)).listen('.SendMessage', /*#__PURE__*/function () {
+      var _ref = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee3(e) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                if (!(_this3.userActive && _this3.userActive.id === e.message.from)) {
+                  _context3.next = 6;
+                  break;
+                }
+
+                _context3.next = 3;
+                return _this3.messages.push(e.message);
+
+              case 3:
+                _this3.scrollToBottom();
+
+                _context3.next = 6;
+                break;
+
+              case 6:
+                console.log(e);
+
+              case 7:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3);
+      }));
+
+      return function (_x2) {
+        return _ref.apply(this, arguments);
+      };
+    }());
   },
   props: {
     auth: Object
@@ -27756,7 +27791,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 window.Pusher = __webpack_require__(/*! pusher-js */ "./node_modules/pusher-js/dist/web/pusher.js");
 window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
   broadcaster: 'pusher',
-  key: "",
+  key: "myappkey",
   cluster: "mt1",
   wsHost: window.location.hostname,
   wsPort: 6001,

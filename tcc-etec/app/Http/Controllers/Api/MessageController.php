@@ -7,7 +7,9 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Message;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Http\Response;
+use App\Events\Chat\SendMessage;
 
 class MessageController extends Controller
 {
@@ -62,6 +64,8 @@ class MessageController extends Controller
         $message->to = $request->to;
         $message->content = filter_var($request->content, FILTER_SANITIZE_STRIPPED);
         $message->save();
+
+        Event::dispatch(new SendMessage($message, $request->to));
     }
 
     /**
