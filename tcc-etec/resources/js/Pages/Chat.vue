@@ -15,6 +15,7 @@
                             <li 
                                 v-for="user in users" :key="user.id"
                                 @click="() => {loadMessages(user.id)}"
+                                :class="(userActive && userActive.id == user.id) ? 'bg-gray-200 bg-opacity-50' : ''"
                                 class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer">
                                 <p class="flex items-center">
                                     {{user.name}}
@@ -46,7 +47,7 @@
                         <!-- message end -->
 
                         <!-- form -->
-                        <div class="w-full bg-gray-200 bg-opacity-25 p-6 border-t border-gray-200">
+                        <div v-if="userActive" class="w-full bg-gray-200 bg-opacity-25 p-6 border-t border-gray-200">
                             <form>
                                 <div class="flex rounded-md overflow-hidden border border-gray-300">
                                     <input class="flex-1 px-4 py-2 text-sm focus:outline-none">
@@ -75,7 +76,7 @@
             return{
                 users: [],
                 messages: [],
-                userActive: {}
+                userActive: null
             }
         },
         methods:{
@@ -85,12 +86,11 @@
             loadMessages: function(userId){
                 
                 axios.get(`api/users/${userId}`).then(response => {
-                    console.log(response)
+                    this.userActive = response.data.user
                 })
 
                 axios.get(`api/messages/${userId}`).then(response => {
                     this.messages = response.data.messages
-                    console.log(response)
                 })
                 
             }

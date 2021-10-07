@@ -20584,7 +20584,7 @@ __webpack_require__.r(__webpack_exports__);
     return {
       users: [],
       messages: [],
-      userActive: {}
+      userActive: null
     };
   },
   methods: {
@@ -20595,11 +20595,10 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       axios.get("api/users/".concat(userId)).then(function (response) {
-        console.log(response);
+        _this.userActive = response.data.user;
       });
       axios.get("api/messages/".concat(userId)).then(function (response) {
         _this.messages = response.data.messages;
-        console.log(response);
       });
     }
   },
@@ -24799,20 +24798,23 @@ var _hoisted_10 = {
 var _hoisted_11 = {
   "class": "block mt-1 text-xs text-gray-500"
 };
-
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_12 = {
+  key: 0,
   "class": "w-full bg-gray-200 bg-opacity-25 p-6 border-t border-gray-200"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex rounded-md overflow-hidden border border-gray-300"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
   "class": "flex-1 px-4 py-2 text-sm focus:outline-none"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   type: "submit",
   "class": "bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2"
-}, "Enviar")])])], -1
+}, "Enviar")])], -1
 /* HOISTED */
 );
 
+var _hoisted_14 = [_hoisted_13];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_app_layout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("app-layout");
 
@@ -24829,11 +24831,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           onClick: function onClick() {
             _ctx.loadMessages(user.id);
           },
-          "class": "p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer"
+          "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([_ctx.userActive && _ctx.userActive.id == user.id ? 'bg-gray-200 bg-opacity-50' : '', "p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer"])
         }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(user.name) + " ", 1
         /* TEXT */
-        ), _hoisted_8])], 8
-        /* PROPS */
+        ), _hoisted_8])], 10
+        /* CLASS, PROPS */
         , _hoisted_6);
       }), 128
       /* KEYED_FRAGMENT */
@@ -24855,7 +24857,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         );
       }), 128
       /* KEYED_FRAGMENT */
-      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" message end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" form "), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" form end ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" box messages end ")])])])];
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" message end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" form "), _ctx.userActive ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_12, _hoisted_14)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" form end ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" box messages end ")])])])];
     }),
     _: 1
     /* STABLE */
