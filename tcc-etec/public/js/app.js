@@ -20585,16 +20585,19 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     loadMessages: function loadMessages(userId) {
+      var _this = this;
+
       axios.get('api/messages/${userId}').then(function (response) {
+        _this.messages = response.data.messages;
         console.log(response);
       });
     }
   },
   mounted: function mounted() {
-    var _this = this;
+    var _this2 = this;
 
     axios.get('api/users').then(function (response) {
-      _this.users = response.data.users; // console.log(response)
+      _this2.users = response.data.users; // console.log(response)
     });
   }
 }));

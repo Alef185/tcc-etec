@@ -120,6 +120,7 @@
             loadMessages: function(userId){
 
                 axios.get('api/messages/${userId}').then(response => {
+                    this.messages = response.data.messages
                     console.log(response)
                 })
             }
