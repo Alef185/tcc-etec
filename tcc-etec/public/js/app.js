@@ -20611,25 +20611,53 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     moment: function moment(arg) {
       return moment__WEBPACK_IMPORTED_MODULE_3___default()(arg);
     },
-    loadMessages: function loadMessages(userId) {
-      var _this = this;
-
-      axios.get("api/users/".concat(userId)).then(function (response) {
-        _this.userActive = response.data.user;
-      });
-      axios.get("api/messages/".concat(userId)).then(function (response) {
-        _this.messages = response.data.messages;
-      });
+    scrollToBottom: function scrollToBottom() {
+      if (this.messages.length) {
+        document.querySelectorAll('.message:last-child')[0].scrollIntoView();
+      }
     },
-    sendMessage: function () {
-      var _sendMessage = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
-        var _this2 = this;
+    loadMessages: function () {
+      var _loadMessages = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee(userId) {
+        var _this = this;
 
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                _context.next = 2;
+                axios.get("api/users/".concat(userId)).then(function (response) {
+                  _this.userActive = response.data.user;
+                });
+                _context.next = 3;
+                return axios.get("api/messages/".concat(userId)).then(function (response) {
+                  _this.messages = response.data.messages;
+                });
+
+              case 3:
+                this.scrollToBottom();
+
+              case 4:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function loadMessages(_x) {
+        return _loadMessages.apply(this, arguments);
+      }
+
+      return loadMessages;
+    }(),
+    sendMessage: function () {
+      var _sendMessage = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee2() {
+        var _this2 = this;
+
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.next = 2;
                 return axios.post('api/messages/store', {
                   'content': this.message,
                   'to': this.userActive.id
@@ -20646,14 +20674,14 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 });
 
               case 2:
-                console.log(this.message);
+                this.scrollToBottom();
 
               case 3:
               case "end":
-                return _context.stop();
+                return _context2.stop();
             }
           }
-        }, _callee, this);
+        }, _callee2, this);
       }));
 
       function sendMessage() {
@@ -24901,7 +24929,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" box messages "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" message "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.messages, function (message) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
           key: message.id,
-          "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([message.from == _ctx.auth.user.id ? 'text-right' : '', "w-full mb-3"])
+          "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([message.from == _ctx.auth.user.id ? 'text-right' : '', "w-full mb-3 message"])
         }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
           "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([message.from == _ctx.auth.user.id ? 'messageFromMe' : 'messageToMe', "inline-block p-2 rounded-md"]),
           style: {

@@ -33,7 +33,7 @@
                             <div 
                                 v-for="message in messages" :key="message.id"
                                 :class="(message.from == auth.user.id) ? 'text-right' : '' "
-                                class="w-full mb-3">
+                                class="w-full mb-3 message">
                                 <p 
                                 :class="(message.from == auth.user.id) ? 'messageFromMe' : 'messageToMe' "
                                 class="inline-block p-2 rounded-md" style="max-width: 75%;">
@@ -80,19 +80,26 @@
                 message: ''
             }
         },
-        methods:{
+        methods:{ 
             moment(arg){
                 return moment(arg);
             },
-            loadMessages: function(userId){
+            scrollToBottom: function(){
+                if(this.messages.length){
+                    document.querySelectorAll('.message:last-child')[0].scrollIntoView()
+                }
+            },
+            loadMessages: async function(userId){
                 
                 axios.get(`api/users/${userId}`).then(response => {
                     this.userActive = response.data.user
                 })
 
-                axios.get(`api/messages/${userId}`).then(response => {
+                await axios.get(`api/messages/${userId}`).then(response => {
                     this.messages = response.data.messages
-                })  
+                }) 
+
+                this.scrollToBottom()
             },
             sendMessage: async function() {
 
@@ -111,7 +118,8 @@
 
                     this.message = ''
                 })
-                console.log(this.message)
+                
+                this.scrollToBottom()
             },
         },
         mounted() {
