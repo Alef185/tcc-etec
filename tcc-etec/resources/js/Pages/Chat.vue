@@ -38,7 +38,9 @@
                                 class="inline-block p-2 rounded-md" style="max-width: 75%;">
                                     {{message.content}}
                                 </p>
-                                <span class="block mt-1 text-xs text-gray-500">{{message.created_at}}</span>
+                                <span class="block mt-1 text-xs text-gray-500">{{ moment(message.created_at).format('MM/DD/YYYY hh:mm') }}</span>
+
+                                <!-- <span class="block mt-1 text-xs text-gray-500">{{message.created_at | formatDate}}</span> -->
                             </div>
                         </div>
                         <!-- message end -->
@@ -64,7 +66,7 @@
 <script>
     import { defineComponent } from 'vue'
     import AppLayout from '@/Layouts/AppLayout.vue'
-
+    import moment from 'moment';
     export default defineComponent({
         components: {
             AppLayout,
@@ -72,16 +74,25 @@
         data() {
             return{
                 users: [],
-                messages: []
+                messages: [],
+                userActive: {}
             }
         },
         methods:{
+            moment(arg){
+                return moment(arg);
+            },
             loadMessages: function(userId){
+                
+                axios.get(`api/users/${userId}`).then(response => {
+                    console.log(response)
+                })
 
                 axios.get(`api/messages/${userId}`).then(response => {
                     this.messages = response.data.messages
                     console.log(response)
                 })
+                
             }
         },
         mounted() {
@@ -98,7 +109,7 @@
 
 <style>
 .messageFromMe{
-    background-color: rgba(154, 139, 180, 0.267);
+    background-color: rgba(181, 159, 219, 0.37);
 }
 .messageToMe{
     background-color: rgba(167, 167, 167, 0.178);
