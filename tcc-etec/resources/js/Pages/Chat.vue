@@ -67,6 +67,7 @@
 <script>
     import { defineComponent } from 'vue'
     import AppLayout from '@/Layouts/AppLayout.vue'
+    import store from '../store'
     import moment from 'moment';
     export default defineComponent({
         components: {
@@ -78,6 +79,11 @@
                 messages: [],
                 userActive: null,
                 message: ''
+            }
+        },
+        computed: {
+            user() {
+                return store.state.user
             }
         },
         methods:{ 
@@ -109,7 +115,7 @@
                 }).then(response => {
 
                     this.messages.push({
-                        'from': '1',
+                        'from': this.user.id,
                         'to': this.userActive.id,
                         'content': this.message,
                         'created_at': new Date().toISOString(),
