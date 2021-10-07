@@ -2,9 +2,11 @@ require('./bootstrap');
 
 // import Vue from 'vue';
 // import PortalVue from 'portal-vue';
+// import Vue from vue/dist/vue.js;
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
+// import store from './store'
 // import moment from 'moment';
 
 // moment.locale("pt-br");
@@ -13,6 +15,15 @@ import { InertiaProgress } from '@inertiajs/progress';
 //     //     return moment(value).format('DD/MM/YYYY HH:mm')
 //     // }
 // });
+
+// store.dispatch('userStateAction');
+
+import store from './store'
+store.dispatch('userStateAction')
+
+
+
+
 
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 
