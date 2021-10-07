@@ -31,18 +31,14 @@
                         <div class="w-full p-6 flex flex-col overflow-y-scroll">
                             <div 
                                 v-for="message in messages" :key="message.id"
-                                class="w-full mb-3 text-right">
-                                <p class="inline-block p-2 rounded-md messageFromMe" style="max-width: 75%;">
+                                :class="(message.from == auth.user.id) ? 'text-right' : '' "
+                                class="w-full mb-3">
+                                <p 
+                                :class="(message.from == auth.user.id) ? 'messageFromMe' : 'messageToMe' "
+                                class="inline-block p-2 rounded-md" style="max-width: 75%;">
                                     {{message.content}}
                                 </p>
                                 <span class="block mt-1 text-xs text-gray-500">{{message.created_at}}</span>
-                            </div>
-
-                            <div class="w-full mb-3">
-                                <p class="inline-block p-2 rounded-md messageToMe" style="max-width: 75%;">
-                                    Oi!
-                                </p>
-                                <span class="block mt-1 text-xs text-gray-500">6/10/2021 17:47</span>
                             </div>
                         </div>
                         <!-- message end -->
@@ -93,6 +89,9 @@
                 this.users = response.data.users
                 // console.log(response)
             })
+        },
+        props: {
+            auth: Object,
         }
     })
 </script>
@@ -100,10 +99,8 @@
 <style>
 .messageFromMe{
     background-color: rgba(154, 139, 180, 0.267);
-
 }
 .messageToMe{
-     
     background-color: rgba(167, 167, 167, 0.178);
 }
 </style>
