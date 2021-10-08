@@ -19,7 +19,7 @@
                                 class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer">
                                 <p class="flex items-center">
                                     {{user.name}}
-                                    <span class="ml-2 w-2 h-2 bg-blue-500 rounded-full"></span>
+                                    <span v-if="user.notification" class="ml-2 w-2 h-2 bg-blue-500 rounded-full"></span>
                                 </p>
                             </li>
                         </ul>
@@ -105,7 +105,23 @@
                     this.messages = response.data.messages
                 }) 
 
-                this.scrollToBottom()
+                // Limpando a bolinha de mensagem recebida quando clicamos no respectivo chat da pessoa
+                const user = this.users.filter((user) => {
+                if (user.id === userId) {
+                    return user
+                }
+                })
+            // Quando encontrar um usuário
+                if (user) {
+                // user.notification = true (Deveria ser reativo, mas não vai funcionar, então...)
+                // Vamos setar da forma abaixo para ser reativo
+                //Vue.set(user[0], 'notification', true)
+                user[0].notification = false
+            }
+            // Descendo o scroll
+            this.scrollToBottom()
+
+
             },
             sendMessage: async function() {
 
@@ -134,15 +150,29 @@
                 // console.log(response)
             })
 
-            Echo.private(`user.${this.user.id}`).listen('.SendMessage', async (e) => {
-                if(this.userActive && this.userActive.id === e.message.from) {
-                    await this.messages.push(e.message)
-                    this.scrollToBottom()
-                } else {
-
+            Echo.private(`user.${this.user.id}`).listen('.SendMessage', async (data) => {
+            if (this.userActive && this.userActive.id === data.message.from) {
+                await this.messages.push(data.message)
+                this.scrollToBottom()
+            } else {
+                // Colocando a bolinha de nova mensagem
+                const user = this.users.filter((user) => {
+                    // Quando o usuário que estivermos percorrendo, for igual ao usuário que enviou a mensagem
+                    if (user.id === data.message.from) {
+                        return user
+                    }
+                })
+                // Quando encontrar um usuário
+                if (user) {
+                    // user.notification = true (Deveria ser reativo, mas não vai funcionar, então...)
+                    // Vamos setar da forma abaixo para ser reativo
+                    //Vue.set(user[0], 'notification', true)
+                    user[0].notification = true
                 }
-                console.log(e)
-            })
+            }
+            //console.log(data)
+            //console.log('O evento retornou')
+        }) // Esse evento é aquele que nomeamos no método broadcastAs
         },
         props: {
             auth: Object,
