@@ -1,0 +1,173 @@
+<template>
+    <app-layout title="Dashboard">
+        <template #header>
+            <h2 class="font-semibold text-xl text-gray-100 leading-tight">
+                Anotações
+            </h2>
+        </template>
+        <link href="https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css" rel="stylesheet">
+
+        <div class="py-12 divBack" style="min-height: 85vh;">
+            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                <div class="overflow-hidden shadow-xl sm:rounded-lg flex chatFundo" style="min-height: 650px; max-height: 650px;">
+                    <!-- list users -->
+                    <div class="w-3/12 bg-white border-r border-gray-200 overflow-y-scroll">
+                        <ul>
+                            <li 
+                                class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer">
+                                <button type="submit" class="btnAdicionar text-white px-4 py-2">+ ADICIONAR NOTA</button>
+                            </li>
+                            <li 
+                                class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer">
+                                <p class="flex items-center">
+                                    •Título da nota 1
+                                    <!-- <span class="ml-2 w-2 h-2 bg-blue-500 rounded-full"></span> -->
+                                </p>
+                            </li>
+                            <li 
+                                class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer">
+                                <p class="flex items-center">
+                                    •Título da nota 2
+                                    <!-- <span class="ml-2 w-2 h-2 bg-blue-500 rounded-full"></span> -->
+                                </p>
+                            </li>
+                            <li 
+                                class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer bg-blue-300 bg-opacity-25">
+                                <p class="flex items-center">
+                                    •Título da nota 3
+                                    <!-- <span class="ml-2 w-2 h-2 bg-blue-500 rounded-full"></span> -->
+                                </p>
+                            </li>
+                            <li 
+                                class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer">
+                                <p class="flex items-center">
+                                    •Título da nota 4
+                                    <!-- <span class="ml-2 w-2 h-2 bg-blue-500 rounded-full"></span> -->
+                                </p>
+                            </li>
+                            <li 
+                                class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer">
+                                <p class="flex items-center">
+                                    •Título da nota 5
+                                    <!-- <span class="ml-2 w-2 h-2 bg-blue-500 rounded-full"></span> -->
+                                </p>
+                            </li>
+                            <li 
+                                class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer">
+                                <p class="flex items-center">
+                                    •Título da nota 6
+                                    <!-- <span class="ml-2 w-2 h-2 bg-blue-500 rounded-full"></span> -->
+                                </p>
+                            </li>
+                            <li 
+                                class="p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer">
+                                <p class="flex items-center">
+                                    •Título da nota 7
+                                    <!-- <span class="ml-2 w-2 h-2 bg-blue-500 rounded-full"></span> -->
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- box messages -->
+                    <div class="w-9/12 flex flex-col justify-between">
+
+                        <!-- message -->
+                        <div class="w-full p-6 flex flex-col overflow-y-scroll overflow-x-hidden">
+                            <div 
+                                
+                                class="w-full mb-3 message">
+                                <p class="txtTitle inline-block p-2 rounded-md" style="max-width: 75%;">
+                                    •Título da nota 3
+                                </p>
+                                <span class="txtMsg block mt-1 text-xs text-gray-100">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem exercitationem repudiandae ipsum tenetur rerum? Odit repellendus non explicabo expedita, ratione fugiat, facere dignissimos, voluptatum molestias corrupti dolore ut sapiente? Odit.<br>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque mollitia, quibusdam accusantium iste veritatis debitis nulla voluptates laudantium quisquam qui quo illum, harum, excepturi exercitationem. Rem, fugiat. Sit, molestias amet!<br>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque mollitia, quibusdam accusantium iste veritatis debitis nulla voluptates laudantium quisquam qui quo illum, harum, excepturi exercitationem. Rem, fugiat. Sit, molestias amet!<br>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque mollitia, quibusdam accusantium iste veritatis debitis nulla voluptates laudantium quisquam qui quo illum, harum, excepturi exercitationem. Rem, fugiat. Sit, molestias amet!</span>
+
+                                <!-- <span class="block mt-1 text-xs text-gray-500">{{message.created_at | formatDate}}</span> -->
+                            </div>
+                        </div>
+                        <!-- message end -->
+
+                        <!-- form -->
+                        <div class="w-full p-6 border-t border-gray-200">
+                            <form>
+                                <div class="flex rounded-md overflow-hidden justify-end">
+                                    <button class="btnEnviar text-white px-4 py-2">X EXCLUIR NOTA</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- form end -->
+                    </div>
+                    <!-- box messages end -->
+                </div>
+            </div>
+        </div>
+    </app-layout>
+</template>
+
+<script>
+    import { defineComponent } from 'vue'
+    import AppLayout from '@/Layouts/AppLayout.vue'
+
+    export default defineComponent({
+        components: {
+            AppLayout,
+        },
+    })
+</script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.txtTitle{
+    font-size: 1.5em;
+    color: #7bcbf7;
+}
+.txtMsg{
+    font-size: 1em;
+    line-height: 30px;
+}
+.messageFromMe{
+    background-color: #71A8C6;
+}
+.messageToMe{
+    background-color: #BED9EA;
+}
+.chatFundo{
+    /* background: #2c324d; */
+background: rgb(59,65,97);
+background: linear-gradient(180deg, rgba(59,65,97,1) 0%, rgba(65,85,136,1) 100%);
+}
+.btnEnviar{
+    background: #71a8c6;
+    transition: 0.3s;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.btnAdicionar{
+    background: #3b4161;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btnAdicionar:hover{
+    background: #71a8c6;
+    border-radius: 10px;
+}
+.btnEnviar:hover{
+    background: #f04646;
+    letter-spacing: 2px;
+}
+.message{
+    color: rgb(15, 21, 48);
+    font-weight: 600;
+}
+.divBack{
+    background: #bed9ea;
+}
+</style>

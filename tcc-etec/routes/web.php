@@ -31,4 +31,5 @@ Route::group(['middleware'=> ['auth:sanctum', 'verified']], function(){
     Route::get('/dashboard', [PageController::class, 'dashboard'])->name('dashboard');
     Route::get('/chat', [PageController::class, 'chat'])->name('chat');
     Route::get('/tasks', [PageController::class, 'tasks'])->name('tasks');
+    Route::get('/notes', [PageController::class, 'notes'])->name('notes');
 });

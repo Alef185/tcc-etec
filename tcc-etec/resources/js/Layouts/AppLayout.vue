@@ -28,6 +28,9 @@
                                 <jet-nav-link :href="route('tasks')" :active="route().current('tasks')">
                                     Tarefas
                                 </jet-nav-link>
+                                <jet-nav-link :href="route('notes')" :active="route().current('notes')">
+                                    Anotações
+                                </jet-nav-link>
                             </div>
                         </div>
 

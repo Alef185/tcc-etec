@@ -24,4 +24,8 @@ class PageController extends Controller
     {
         return Inertia::render('Tasks');
     }
+    public function notes()
+    {
+        return Inertia::render('Notes');
+    }
 }
