@@ -20,4 +20,8 @@ class PageController extends Controller
     {
         return Inertia::render('Chat');
     }
+    public function tasks()
+    {
+        return Inertia::render('Tasks');
+    }
 }

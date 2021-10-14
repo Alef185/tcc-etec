@@ -1,16 +1,15 @@
 <template>
     <app-layout title="Dashboard">
         <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            <h2 class="font-semibold text-xl text-gray-100 leading-tight">
                 Chat de Equipe
             </h2>
         </template>
-
-        <div class="py-12">
+        <div class="py-12 divBack" style="min-height: 85vh;">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg flex" style="min-height: 400px; max-height: 400px;">
+                <div class="overflow-hidden shadow-xl sm:rounded-lg flex chatFundo" style="min-height: 650px; max-height: 650px;">
                     <!-- list users -->
-                    <div class="w-3/12 bg-gray-200 bg-opacity-25 border-r border-gray-200 overflow-y-scroll">
+                    <div class="w-3/12 bg-white border-r border-gray-200 overflow-y-scroll">
                         <ul>
                             <li 
                                 v-for="user in users" :key="user.id"
@@ -29,7 +28,7 @@
                     <div class="w-9/12 flex flex-col justify-between">
 
                         <!-- message -->
-                        <div class="w-full p-6 flex flex-col overflow-y-scroll">
+                        <div class="w-full p-6 flex flex-col overflow-y-scroll overflow-x-hidden">
                             <div 
                                 v-for="message in messages" :key="message.id"
                                 :class="(message.from == auth.user.id) ? 'text-right' : '' "
@@ -39,7 +38,7 @@
                                 class="inline-block p-2 rounded-md" style="max-width: 75%;">
                                     {{message.content}}
                                 </p>
-                                <span class="block mt-1 text-xs text-gray-500">{{ moment(message.created_at).format('MM/DD/YYYY hh:mm') }}</span>
+                                <span class="block mt-1 text-xs text-gray-100">{{ moment(message.created_at).format('MM/DD/YYYY hh:mm') }}</span>
 
                                 <!-- <span class="block mt-1 text-xs text-gray-500">{{message.created_at | formatDate}}</span> -->
                             </div>
@@ -47,11 +46,11 @@
                         <!-- message end -->
 
                         <!-- form -->
-                        <div v-if="userActive" class="w-full bg-gray-200 bg-opacity-25 p-6 border-t border-gray-200">
+                        <div v-if="userActive" class="w-full p-6 border-t border-gray-200">
                             <form v-on:submit.prevent="sendMessage">
                                 <div class="flex rounded-md overflow-hidden border border-gray-300">
                                     <input v-model="message" class="flex-1 px-4 py-2 text-sm focus:outline-none">
-                                    <button type="submit" class="bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2">Enviar</button>
+                                    <button type="submit" class="btnEnviar text-white px-4 py-2">Enviar</button>
                                 </div>
                             </form>
                         </div>
@@ -181,11 +180,35 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .messageFromMe{
-    background-color: rgba(181, 159, 219, 0.37);
+    background-color: #71A8C6;
 }
 .messageToMe{
-    background-color: rgba(167, 167, 167, 0.178);
+    background-color: #BED9EA;
+}
+.chatFundo{
+    /* background: #2c324d; */
+background: rgb(59,65,97);
+background: linear-gradient(180deg, rgba(59,65,97,1) 0%, rgba(65,85,136,1) 100%);
+}
+.btnEnviar{
+    background: #71a8c6;
+    transition: 0.3s;
+}
+.btnEnviar:hover{
+    background: #f1d75f;
+    letter-spacing: 2px;
+}
+.message{
+    color: rgb(15, 21, 48);
+    font-weight: 600;
+}
+.divBack{
+    background: #bed9ea;
 }
 </style>
 

@@ -20,10 +20,13 @@
                             <!-- Navigation Links -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
-                                    Dashboard
+                                    Home
                                 </jet-nav-link>
                                 <jet-nav-link :href="route('chat')" :active="route().current('chat')">
                                     Chat
+                                </jet-nav-link>
+                                <jet-nav-link :href="route('tasks')" :active="route().current('tasks')">
+                                    Tarefas
                                 </jet-nav-link>
                             </div>
                         </div>
@@ -220,7 +223,7 @@
             </nav>
 
             <!-- Page Heading -->
-            <header class="bg-white shadow" v-if="$slots.header">
+            <header style="background: #3b4161;" class="bg-white shadow" v-if="$slots.header">
                 <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                     <slot name="header"></slot>
                 </div>
