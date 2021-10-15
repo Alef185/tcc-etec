@@ -21,7 +21,7 @@ import { InertiaProgress } from '@inertiajs/progress';
 import store from './store'
 store.dispatch('userStateAction')
 
-const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
+const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'EzOffice';
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
@@ -34,4 +34,4 @@ createInertiaApp({
     },
 });
 
-InertiaProgress.init({ color: '#4B5563' });
+InertiaProgress.init({ color: '#4a9eff' });

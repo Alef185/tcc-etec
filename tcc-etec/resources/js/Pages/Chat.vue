@@ -198,9 +198,10 @@ background: linear-gradient(180deg, rgba(59,65,97,1) 0%, rgba(65,85,136,1) 100%)
 .btnEnviar{
     background: #71a8c6;
     transition: 0.3s;
+    border-radius: 1px;
 }
 .btnEnviar:hover{
-    background: #f1d75f;
+    background: #5faaf1;
     letter-spacing: 2px;
 }
 .message{
