@@ -56,16 +56,16 @@
                     <li><a href="#tarefas">Tarefas</a></li>
 
                     <div v-if="canLogin">
-                        <Link v-if="$page.props.user" :href="route('dashboard')" class="btnHome" style="font-weight: 700;">
+                        <Link v-if="$page.props.user" :href="route('dashboard')" class="btnHome" style="font-weight: 700; color: #3766DD;">
                             DashBoard
                         </Link>
 
                         <template v-else>
-                            <Link :href="route('login')" class="btnHome" style="font-weight: 700;">
+                            <Link :href="route('login')" class="btnHome" style="font-weight: 700; color: #3766DD;">
                                 Entrar
                             </Link>
 
-                            <Link v-if="canRegister" :href="route('register')" class="btnHome" style="font-weight: 700;">
+                            <Link v-if="canRegister" :href="route('register')" class="btnHome" style="font-weight: 700; color: #3766DD;">
                                 Registrar
                             </Link>
                         </template>
@@ -74,7 +74,7 @@
         </header>
         <div class="content">
             <div class="text">
-                <h2>EzOffice<br><span>Rápido, prático e fácil</span></h2>
+                <h2>Ez<i style="color: #3766DD;">Off</i>ice<br><span>Rápido, prático e fácil</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p>
                 <a href="#" class="btn">Order Now</a>
             </div>
@@ -104,7 +104,7 @@
                 </div>
             </div>
             <div class="text" style="text-align: right;">
-                <h2>Equipes<br><span>Todos em um só lugar</span></h2>
+                <h2>Eq<i style="color: #3766DD;">ui</i>pes<br><span>Todos em um só lugar</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p>
             </div>
         </div>
@@ -114,7 +114,7 @@
     <section class="main" id="chat">
         <div class="content">
             <div class="text">
-                <h2>Chat<br><span>Organize sua rotina</span></h2>
+                <h2>Ch<i style="color: #3766DD;">a</i>t<br><span>Organize sua rotina</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p>
             </div>
             <div class="divImg">
@@ -134,7 +134,7 @@
                 </div>
             </div>
             <div class="text" style="text-align: right;">
-                <h2>Tarefas<br><span>Um jeito simples de se comunicar</span></h2>
+                <h2>Ta<i style="color: #3766DD;">ref</i>as<br><span>Um jeito simples de se comunicar</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p>
             </div>
         </div>
@@ -165,7 +165,6 @@ header{
 }
 .navigation li a, .btnHome{
     position: relative;
-    color: black;
     text-decoration: none;
     margin-left: 40px;
     transition: 0.25s;
@@ -204,7 +203,6 @@ header{
     position: relative;
     top: -17px;
 }
-
 .content{
     position: relative;
     width: 100%;
@@ -217,7 +215,7 @@ header{
     max-width: 600px;
 }
 .content .text h2{
-    color: black;
+    color: #222629;
     font-size: 5em;
     font-weight: 700;
     line-height: 50px;
@@ -238,7 +236,7 @@ header{
     position: relative;
     display: inline-block;
     padding: 20px 50px;
-    background: black;
+    background: #3766DD;
     color: #fff;
     font-size: 1.1em;
     font-weight: 500;
