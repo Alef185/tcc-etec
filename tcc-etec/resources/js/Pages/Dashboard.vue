@@ -17,7 +17,7 @@
 </template>
 <style>
 .divBack{
-    background: #bed9ea;
+    background: #e0e0e0;
 }
 </style>
 <script>

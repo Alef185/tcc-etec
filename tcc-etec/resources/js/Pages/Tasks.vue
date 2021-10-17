@@ -48,7 +48,7 @@
                                 </tr>
                             </thead>
                      
-                            <tbody class="bg-red divide-y divide-gray-200 bg-blue-200 bg-opacity-25">
+                            <tbody class="divTask bg-red divide-y divide-gray-400">
                                 <tr>
                                 <td class="px-6 py-4 whitespace-nowrap">
                                     <div class="flex items-center">
@@ -370,21 +370,26 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.divTask{
+    background: #e0e0e0;
+    background: linear-gradient(180deg,rgb(255, 255, 255) 0%, #e0e0e0 100%);
+}
 .btnAdd{
-    background: #71a8c6;
+    background: #3766DD;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1em;
     transition: 0.3s;
-    border: 2px solid #bed9ea;
-    color: white;
+    color: #fff;
 }
 .btnAdd:hover{
-    background: #bed9ea;
-    border: 2px solid #71a8c6;
-    color: #3b4161;
+    background: #62b640;
+    letter-spacing: 1px;
 }
 .divAdd{
-    background: #3b4161;
+    background: #222629;
 }
 .divBack{
-    background: #bed9ea;
+    background: #e0e0e0;
 }
 </style>

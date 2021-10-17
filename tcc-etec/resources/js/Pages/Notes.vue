@@ -126,11 +126,12 @@
 }
 .txtTitle{
     font-size: 1.5em;
-    color: #7bcbf7;
+    color: #3766DD;
 }
 .txtMsg{
     font-size: 1em;
     line-height: 30px;
+    color: #333;
 }
 .messageFromMe{
     background-color: #71A8C6;
@@ -141,33 +142,35 @@
 .chatFundo{
     /* background: #2c324d; */
 background: rgb(59,65,97);
-background: linear-gradient(180deg, rgba(59,65,97,1) 0%, rgba(65,85,136,1) 100%);
+background: linear-gradient(180deg,rgb(255, 255, 255) 0%, #e0e0e0 100%);
 }
 .btnEnviar{
-    background: #71a8c6;
+    background: #3766DD;
     transition: 0.3s;
     border-radius: 50px;
     font-weight: 600;
+    font-size: 0.8em;
 }
 .btnAdicionar{
-    background: #3b4161;
+    background: #3766DD;
     border-radius: 50px;
     font-weight: 600;
+    font-size: 0.8em;
     transition: 0.3s;
 }
 .btnAdicionar:hover{
-    background: #71a8c6;
-    border-radius: 10px;
+    background: #62b640;
+    letter-spacing: 1px;
 }
 .btnEnviar:hover{
     background: #f04646;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .message{
     color: rgb(15, 21, 48);
     font-weight: 600;
 }
 .divBack{
-    background: #bed9ea;
+    background: #e0e0e0;
 }
 </style>

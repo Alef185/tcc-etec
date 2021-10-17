@@ -11,7 +11,7 @@
                     <!-- list users -->
                     <div class="w-3/12 bg-white border-r border-gray-200 overflow-y-scroll">
                         <ul>
-                            <li 
+                            <li
                                 v-for="user in users" :key="user.id"
                                 @click="() => {loadMessages(user.id)}"
                                 :class="(userActive && userActive.id == user.id) ? 'bg-gray-200 bg-opacity-50' : ''"
@@ -25,7 +25,7 @@
                     </div>
 
                     <!-- box messages -->
-                    <div class="w-9/12 flex flex-col justify-between">
+                    <div class="w-9/12 flex flex-col justify-between border-t border-gray-100">
 
                         <!-- message -->
                         <div class="w-full p-6 flex flex-col overflow-y-scroll overflow-x-hidden">
@@ -38,7 +38,7 @@
                                 class="inline-block p-2 rounded-md" style="max-width: 75%;">
                                     {{message.content}}
                                 </p>
-                                <span class="block mt-1 text-xs text-gray-100">{{ moment(message.created_at).format('MM/DD/YYYY hh:mm') }}</span>
+                                <span class="block mt-1 text-xs text-gray-500">{{ moment(message.created_at).format('MM/DD/YYYY hh:mm') }}</span>
 
                                 <!-- <span class="block mt-1 text-xs text-gray-500">{{message.created_at | formatDate}}</span> -->
                             </div>
@@ -46,7 +46,7 @@
                         <!-- message end -->
 
                         <!-- form -->
-                        <div v-if="userActive" class="w-full p-6 border-t border-gray-200">
+                        <div v-if="userActive" class="divEnviar w-full p-6 border-t border-gray-400">
                             <form v-on:submit.prevent="sendMessage">
                                 <div class="flex rounded-md overflow-hidden border border-gray-300">
                                     <input v-model="message" class="flex-1 px-4 py-2 text-sm focus:outline-none">
@@ -184,24 +184,31 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.divEnviar{
+}
 .messageFromMe{
-    background-color: #71A8C6;
+    background-color: #40a8e970;
+    color: #333;
+    font-weight: normal;
 }
 .messageToMe{
     background-color: #BED9EA;
+    color: #333;
+    font-weight: normal;
 }
 .chatFundo{
     /* background: #2c324d; */
 background: rgb(59,65,97);
-background: linear-gradient(180deg, rgba(59,65,97,1) 0%, rgba(65,85,136,1) 100%);
+background: linear-gradient(180deg,rgb(255, 255, 255) 0%, #e0e0e0 100%);
 }
 .btnEnviar{
-    background: #71a8c6;
+    background: #3766DD;
     transition: 0.3s;
     border-radius: 1px;
+    font-weight: 600;
 }
 .btnEnviar:hover{
-    background: #5faaf1;
+    background: #62b640;
     letter-spacing: 2px;
 }
 .message{
@@ -209,7 +216,7 @@ background: linear-gradient(180deg, rgba(59,65,97,1) 0%, rgba(65,85,136,1) 100%)
     font-weight: 600;
 }
 .divBack{
-    background: #bed9ea;
+    background: #e0e0e0;
 }
 </style>
 

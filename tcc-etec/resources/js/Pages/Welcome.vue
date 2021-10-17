@@ -76,7 +76,7 @@
             <div class="text">
                 <h2>Ez<i style="color: #3766DD;">Off</i>ice<br><span>Rápido, prático e fácil</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p>
-                <a href="#" class="btn">Order Now</a>
+                <a :href="route('login')" class="btn">Entrar</a>
             </div>
             <div class="divImg">
                 <div class="divImg2">

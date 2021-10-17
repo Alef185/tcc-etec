@@ -20,7 +20,7 @@
         <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2">
             <div class="p-6">
                 <div class="flex items-center">
-                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a href="https://laravel.com/docs">Equipes</a></div>
+                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a href="/teams/create">Equipes</a></div>
                 </div>
 
                 <div class="ml-12">
@@ -28,11 +28,11 @@
                         Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.
                     </div>
 
-                    <a href="https://laravel.com/docs">
-                        <div class="mt-3 flex items-center text-sm font-semibold text-indigo-700">
-                                <div>Explore the documentation</div>
+                    <a href="/teams/create">
+                        <div class="mt-3 flex items-center text-sm font-semibold text-blue-700">
+                                <div>Crie uma nova equipe</div>
 
-                                <div class="ml-1 text-indigo-500">
+                                <div class="ml-1 text-blue-700">
                                     <svg viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                                 </div>
                         </div>
@@ -42,7 +42,7 @@
 
             <div class="p-6 border-t border-gray-200 md:border-t-0 md:border-l">
                 <div class="flex items-center">
-                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a href="https://laracasts.com">Chat em Tempo Real</a></div>
+                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a :href="route('chat')">Chat em Tempo Real</a></div>
                 </div>
 
                 <div class="ml-12">
@@ -50,11 +50,11 @@
                         Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
                     </div>
 
-                    <a href="https://laracasts.com">
-                        <div class="mt-3 flex items-center text-sm font-semibold text-indigo-700">
-                                <div>Start watching Laracasts</div>
+                    <a :href="route('chat')">
+                        <div class="mt-3 flex items-center text-sm font-semibold text-blue-700">
+                                <div>Comece uma conversa</div>
 
-                                <div class="ml-1 text-indigo-500">
+                                <div class="ml-1 text-blue-700">
                                     <svg viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                                 </div>
                         </div>
@@ -64,7 +64,7 @@
 
             <div class="p-6 border-t border-gray-200">
                 <div class="flex items-center">
-                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a href="https://tailwindcss.com/">Tarefas</a></div>
+                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a :href="route('tasks')">Tarefas</a></div>
                 </div>
 
                 <div class="ml-12">
@@ -76,7 +76,7 @@
 
             <div class="p-6 border-t border-gray-200 md:border-l">
                 <div class="flex items-center">
-                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold">Anotações</div>
+                    <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a :href="route('notes')">Anotações</a></div>
                 </div>
 
                 <div class="ml-12">
@@ -95,7 +95,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .divBack{
-    background: #bed9ea;
+    background: #e0e0e0;
 }
 </style>
 <script>
@@ -107,4 +107,5 @@
             JetApplicationLogo,
         },
     })
+    
 </script>
