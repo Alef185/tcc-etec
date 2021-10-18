@@ -23304,39 +23304,47 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mt-6 text-gray-500"
-}, " Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel ecosystem to be a breath of fresh air. We hope you love it. ", -1
+}, " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere at, iusto repudiandae, obcaecati alias commodi nam vel libero corporis iure atque, natus ducimus aspernatur in totam vitae beatae dolore provident? ", -1
 /* HOISTED */
 );
 
-var _hoisted_4 = {
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "clock"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "The time is now"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "clockTimer"
+}, "8:23PM")], -1
+/* HOISTED */
+);
+
+var _hoisted_5 = {
   "class": "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
 };
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"p-6\"><div class=\"flex items-center\"><div class=\"ml-4 text-lg text-gray-600 leading-7 font-semibold\"><a href=\"/teams/create\">Equipes</a></div></div><div class=\"ml-12\"><div class=\"mt-2 text-sm text-gray-500\"> Laravel has wonderful documentation covering every aspect of the framework. Whether you&#39;re new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end. </div><a href=\"/teams/create\"><div class=\"mt-3 flex items-center text-sm font-semibold text-blue-700\"><div>Crie uma nova equipe</div><div class=\"ml-1 text-blue-700\"><svg viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"w-4 h-4\"><path fill-rule=\"evenodd\" d=\"M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z\" clip-rule=\"evenodd\"></path></svg></div></div></a></div></div>", 1);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"p-6\"><div class=\"flex items-center\"><div class=\"ml-4 text-lg text-gray-600 leading-7 font-semibold\"><a href=\"/teams/create\">Equipes</a></div></div><div class=\"ml-12\"><div class=\"mt-2 text-sm text-gray-500\"> Laravel has wonderful documentation covering every aspect of the framework. Whether you&#39;re new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end. </div><a href=\"/teams/create\"><div class=\"mt-3 flex items-center text-sm font-semibold text-blue-700\"><div>Crie uma nova equipe</div><div class=\"ml-1 text-blue-700\"><svg viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"w-4 h-4\"><path fill-rule=\"evenodd\" d=\"M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z\" clip-rule=\"evenodd\"></path></svg></div></div></a></div></div>", 1);
 
-var _hoisted_6 = {
+var _hoisted_7 = {
   "class": "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
 };
-var _hoisted_7 = {
+var _hoisted_8 = {
   "class": "flex items-center"
 };
-var _hoisted_8 = {
+var _hoisted_9 = {
   "class": "ml-4 text-lg text-gray-600 leading-7 font-semibold"
 };
-var _hoisted_9 = ["href"];
-var _hoisted_10 = {
+var _hoisted_10 = ["href"];
+var _hoisted_11 = {
   "class": "ml-12"
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mt-2 text-sm text-gray-500"
 }, " Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process. ", -1
 /* HOISTED */
 );
 
-var _hoisted_12 = ["href"];
+var _hoisted_13 = ["href"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mt-3 flex items-center text-sm font-semibold text-blue-700"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, "Comece uma conversa"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "ml-1 text-blue-700"
@@ -23352,19 +23360,19 @@ var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_14 = [_hoisted_13];
-var _hoisted_15 = {
+var _hoisted_15 = [_hoisted_14];
+var _hoisted_16 = {
   "class": "p-6 border-t border-gray-200"
 };
-var _hoisted_16 = {
+var _hoisted_17 = {
   "class": "flex items-center"
 };
-var _hoisted_17 = {
+var _hoisted_18 = {
   "class": "ml-4 text-lg text-gray-600 leading-7 font-semibold"
 };
-var _hoisted_18 = ["href"];
+var _hoisted_19 = ["href"];
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "ml-12"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mt-2 text-sm text-gray-500"
@@ -23372,18 +23380,18 @@ var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_20 = {
+var _hoisted_21 = {
   "class": "p-6 border-t border-gray-200 md:border-l"
 };
-var _hoisted_21 = {
+var _hoisted_22 = {
   "class": "flex items-center"
 };
-var _hoisted_22 = {
+var _hoisted_23 = {
   "class": "ml-4 text-lg text-gray-600 leading-7 font-semibold"
 };
-var _hoisted_23 = ["href"];
+var _hoisted_24 = ["href"];
 
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "ml-12"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mt-2 text-sm text-gray-500"
@@ -23396,23 +23404,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_application_logo, {
     "class": "block h-12 w-auto"
-  })]), _hoisted_2, _hoisted_3]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  })]), _hoisted_2, _hoisted_3, _hoisted_4]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: _ctx.route('chat')
   }, "Chat em Tempo Real", 8
   /* PROPS */
-  , _hoisted_9)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  , _hoisted_10)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: _ctx.route('chat')
-  }, _hoisted_14, 8
+  }, _hoisted_15, 8
   /* PROPS */
-  , _hoisted_12)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  , _hoisted_13)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: _ctx.route('tasks')
   }, "Tarefas", 8
   /* PROPS */
-  , _hoisted_18)])]), _hoisted_19]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  , _hoisted_19)])]), _hoisted_20]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: _ctx.route('notes')
   }, "Anotações", 8
   /* PROPS */
-  , _hoisted_23)])]), _hoisted_24])])]);
+  , _hoisted_24)])]), _hoisted_25])])]);
 }
 
 /***/ }),
@@ -25510,56 +25518,72 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "font-semibold text-xl text-gray-100 leading-tight"
+  "class": "inline-block font-semibold text-xl text-gray-100 leading-tight"
 }, " Chat de Equipe ", -1
 /* HOISTED */
 );
 
-var _hoisted_2 = {
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "inline-block",
+  xmlns: "http://www.w3.org/2000/svg",
+  height: "30px",
+  viewBox: "0 0 24 24",
+  width: "30px",
+  fill: "#ffffff"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M0 0h24v24H0V0z",
+  fill: "none"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM7 9h10c.55 0 1 .45 1 1s-.45 1-1 1H7c-.55 0-1-.45-1-1s.45-1 1-1zm6 5H7c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1zm4-6H7c-.55 0-1-.45-1-1s.45-1 1-1h10c.55 0 1 .45 1 1s-.45 1-1 1z"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
   "class": "py-12 divBack",
   style: {
     "min-height": "85vh"
   }
 };
-var _hoisted_3 = {
+var _hoisted_4 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
 };
-var _hoisted_4 = {
+var _hoisted_5 = {
   "class": "overflow-hidden shadow-xl sm:rounded-lg flex chatFundo",
   style: {
     "min-height": "650px",
     "max-height": "650px"
   }
 };
-var _hoisted_5 = {
+var _hoisted_6 = {
   "class": "w-3/12 bg-white border-r border-gray-200 overflow-y-scroll"
 };
-var _hoisted_6 = ["onClick"];
-var _hoisted_7 = {
+var _hoisted_7 = ["onClick"];
+var _hoisted_8 = {
   "class": "flex items-center"
 };
-var _hoisted_8 = {
+var _hoisted_9 = {
   key: 0,
   "class": "ml-2 w-2 h-2 bg-blue-500 rounded-full"
 };
-var _hoisted_9 = {
+var _hoisted_10 = {
   "class": "w-9/12 flex flex-col justify-between border-t border-gray-100"
 };
-var _hoisted_10 = {
+var _hoisted_11 = {
   "class": "w-full p-6 flex flex-col overflow-y-scroll overflow-x-hidden"
 };
-var _hoisted_11 = {
+var _hoisted_12 = {
   "class": "block mt-1 text-xs text-gray-500"
 };
-var _hoisted_12 = {
+var _hoisted_13 = {
   key: 0,
   "class": "divEnviar w-full p-6 border-t border-gray-400"
 };
-var _hoisted_13 = {
+var _hoisted_14 = {
   "class": "flex rounded-md overflow-hidden border border-gray-300"
 };
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   type: "submit",
   "class": "btnEnviar text-white px-4 py-2"
 }, "Enviar", -1
@@ -25573,24 +25597,24 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     title: "Dashboard"
   }, {
     header: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_1];
+      return [_hoisted_1, _hoisted_2];
     }),
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" list users "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.users, function (user) {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" list users "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.users, function (user) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("li", {
           key: user.id,
           onClick: function onClick() {
             _ctx.loadMessages(user.id);
           },
           "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([_ctx.userActive && _ctx.userActive.id == user.id ? 'bg-gray-200 bg-opacity-50' : '', "p-6 text-lg text-gray-600 leading-7 font-semibold border-b border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 hover:cursor-pointer"])
-        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(user.name) + " ", 1
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(user.name) + " ", 1
         /* TEXT */
-        ), user.notification ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_8)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])], 10
+        ), user.notification ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_9)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])], 10
         /* CLASS, PROPS */
-        , _hoisted_6);
+        , _hoisted_7);
       }), 128
       /* KEYED_FRAGMENT */
-      ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" box messages "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" message "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.messages, function (message) {
+      ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" box messages "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" message "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.messages, function (message) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
           key: message.id,
           "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([message.from == _ctx.auth.user.id ? 'text-right' : '', "w-full mb-3 message"])
@@ -25601,25 +25625,25 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           }
         }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(message.content), 3
         /* TEXT, CLASS */
-        ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.moment(message.created_at).format('MM/DD/YYYY hh:mm')), 1
+        ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.moment(message.created_at).format('MM/DD/YYYY hh:mm')), 1
         /* TEXT */
         ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <span class=\"block mt-1 text-xs text-gray-500\">{{message.created_at | formatDate}}</span> ")], 2
         /* CLASS */
         );
       }), 128
       /* KEYED_FRAGMENT */
-      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" message end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" form "), _ctx.userActive ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" message end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" form "), _ctx.userActive ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
         onSubmit: _cache[1] || (_cache[1] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
           return _ctx.sendMessage && _ctx.sendMessage.apply(_ctx, arguments);
         }, ["prevent"]))
-      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
         "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
           return _ctx.message = $event;
         }),
         "class": "flex-1 px-4 py-2 text-sm focus:outline-none"
       }, null, 512
       /* NEED_PATCH */
-      ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, _ctx.message]]), _hoisted_14])], 32
+      ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, _ctx.message]]), _hoisted_15])], 32
       /* HYDRATE_EVENTS */
       )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" form end ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" box messages end ")])])])];
     }),
@@ -25646,21 +25670,37 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "font-semibold text-xl text-gray-100 leading-tight"
+  "class": "inline-block font-semibold text-xl text-gray-100 leading-tight inline-block"
 }, " Home ", -1
 /* HOISTED */
 );
 
-var _hoisted_2 = {
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "inline-block",
+  xmlns: "http://www.w3.org/2000/svg",
+  height: "30px",
+  viewBox: "0 0 24 24",
+  width: "30px",
+  fill: "#ffffff"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M0 0h24v24H0V0z",
+  fill: "none"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
   "class": "py-12 divBack",
   style: {
     "min-height": "85vh"
   }
 };
-var _hoisted_3 = {
+var _hoisted_4 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
 };
-var _hoisted_4 = {
+var _hoisted_5 = {
   "class": "bg-white overflow-hidden shadow-xl sm:rounded-lg"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -25672,10 +25712,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     title: "Dashboard"
   }, {
     header: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_1];
+      return [_hoisted_1, _hoisted_2];
     }),
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_welcome)])])])];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_welcome)])])])];
     }),
     _: 1
     /* STABLE */
@@ -25700,19 +25740,37 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "font-semibold text-xl text-gray-100 leading-tight"
+  "class": "inline-block font-semibold text-xl text-gray-100 leading-tight"
 }, " Anotações ", -1
 /* HOISTED */
 );
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("link", {
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "inline-block",
+  xmlns: "http://www.w3.org/2000/svg",
+  "enable-background": "new 0 0 24 24",
+  height: "30px",
+  viewBox: "0 0 24 24",
+  width: "30px",
+  fill: "#ffffff"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("rect", {
+  fill: "none",
+  height: "24",
+  width: "24"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M14,11c0,0.55-0.45,1-1,1H4c-0.55,0-1-0.45-1-1s0.45-1,1-1h9C13.55,10,14,10.45,14,11z M3,7c0,0.55,0.45,1,1,1h9 c0.55,0,1-0.45,1-1s-0.45-1-1-1H4C3.45,6,3,6.45,3,7z M10,15c0-0.55-0.45-1-1-1H4c-0.55,0-1,0.45-1,1s0.45,1,1,1h5 C9.55,16,10,15.55,10,15z M18.01,12.87l0.71-0.71c0.39-0.39,1.02-0.39,1.41,0l0.71,0.71c0.39,0.39,0.39,1.02,0,1.41l-0.71,0.71 L18.01,12.87z M17.3,13.58l-5.16,5.16C12.05,18.83,12,18.95,12,19.09v1.41c0,0.28,0.22,0.5,0.5,0.5h1.41c0.13,0,0.26-0.05,0.35-0.15 l5.16-5.16L17.3,13.58z"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("link", {
   href: "https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css",
   rel: "stylesheet"
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "py-12 divBack",
   style: {
     "min-height": "85vh"
@@ -25790,10 +25848,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     title: "Dashboard"
   }, {
     header: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_1];
+      return [_hoisted_1, _hoisted_2];
     }),
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_2, _hoisted_3];
+      return [_hoisted_3, _hoisted_4];
     }),
     _: 1
     /* STABLE */
@@ -26916,19 +26974,36 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "font-semibold text-xl text-gray-100 leading-tight"
+  "class": "inline-block font-semibold text-xl text-gray-100 leading-tight"
 }, " Tarefas ", -1
 /* HOISTED */
 );
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("link", {
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "inline-block",
+  xmlns: "http://www.w3.org/2000/svg",
+  "enable-background": "new 0 0 24 24",
+  height: "30px",
+  viewBox: "0 0 24 24",
+  width: "30px",
+  fill: "#ffffff"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("g", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M0,0h24v24H0V0z",
+  fill: "none"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("g", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M19.41,7.41l-4.83-4.83C14.21,2.21,13.7,2,13.17,2H6C4.9,2,4.01,2.9,4.01,4L4,20c0,1.1,0.89,2,1.99,2H18c1.1,0,2-0.9,2-2 V8.83C20,8.3,19.79,7.79,19.41,7.41z M10.23,17.29l-2.12-2.12c-0.39-0.39-0.39-1.02,0-1.41l0,0c0.39-0.39,1.02-0.39,1.41,0 l1.41,1.41l3.54-3.54c0.39-0.39,1.02-0.39,1.41,0l0,0c0.39,0.39,0.39,1.02,0,1.41l-4.24,4.24C11.26,17.68,10.62,17.68,10.23,17.29z M14,9c-0.55,0-1-0.45-1-1V3.5L18.5,9H14z"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("link", {
   href: "https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css",
   rel: "stylesheet"
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "py-12 divBack",
   style: {
     "min-height": "85vh"
@@ -27303,10 +27378,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     title: "Dashboard"
   }, {
     header: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_1];
+      return [_hoisted_1, _hoisted_2];
     }),
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_2, _hoisted_3];
+      return [_hoisted_3, _hoisted_4];
     }),
     _: 1
     /* STABLE */
@@ -28424,67 +28499,55 @@ var _withScopeId = function _withScopeId(n) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-317d1a6e"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n;
 };
 
-var _hoisted_1 = {
+var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("link", {
+    href: "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css",
+    rel: "stylesheet"
+  }, null, -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("link", {
+    rel: "stylesheet",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+  }, null, -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_3 = {
   "class": "main",
   id: "home"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-v-317d1a6e><a href=\"\" data-v-317d1a6e><svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" width=\"80px\" height=\"80px\" viewBox=\"0 0 3819.000000 3106.000000\" preserveAspectRatio=\"xMidYMid meet\" data-v-317d1a6e><g transform=\"translate(0.000000,3106.000000) scale(0.100000,-0.100000)\" fill=\"#000000\" stroke=\"none\" data-v-317d1a6e><path d=\"M26730 31040 c-1279 -90 -2422 -458 -3360 -1083 -254 -169 -421 -306\n               -835 -683 -1122 -1023 -2098 -1992 -3134 -3114 -139 -151 -274 -295 -300 -320\n               -25 -25 -152 -157 -281 -295 -426 -454 -1778 -1792 -1801 -1783 -8 4 -371 392\n               -939 1004 -659 710 -901 965 -1210 1277 -935 947 -1466 1316 -2365 1646 -437\n               160 -782 248 -1189 304 -141 19 -205 22 -521 21 -384 0 -459 -6 -752 -59 -702\n               -129 -1362 -438 -1942 -909 -1018 -826 -1620 -2141 -1577 -3443 35 -1081 420\n               -2033 1143 -2825 327 -358 777 -700 1198 -910 458 -230 983 -386 1525 -453\n               175 -22 603 -31 782 -16 789 66 1431 321 2103 836 306 235 530 439 1236 1125\n               178 173 434 421 569 550 532 510 1931 1830 1941 1830 6 0 224 -233 1487 -1584\n               294 -314 553 -589 576 -611 23 -22 118 -121 212 -220 1429 -1520 2511 -2605\n               3173 -3183 348 -304 621 -516 863 -666 251 -157 745 -400 1128 -554 1497 -602\n               3041 -718 4544 -341 1096 274 2194 844 3056 1585 259 223 587 563 824 853\n               1425 1747 1985 3926 1565 6095 -202 1045 -615 1999 -1248 2881 -593 827 -1424\n               1580 -2296 2080 -922 529 -1938 852 -2995 951 -203 19 -976 28 -1180 14z m935\n               -3040 c691 -64 1327 -287 1925 -675 397 -257 814 -645 1097 -1020 468 -621\n               761 -1398 838 -2224 17 -190 20 -616 4 -796 -97 -1131 -732 -2294 -1614 -2955\n               -669 -502 -1413 -812 -2195 -917 -194 -26 -737 -26 -930 0 -657 89 -1303 333\n               -1796 680 -411 288 -1339 1145 -2229 2057 -751 770 -1346 1353 -1477 1448 -75\n               53 -77 64 -26 125 318 387 1025 1163 1758 1932 376 394 566 599 770 830 92\n               105 191 213 221 240 70 65 270 226 429 345 778 580 1633 892 2585 944 113 6\n               521 -3 640 -14z\" data-v-317d1a6e></path><path d=\"M10340 15094 c-238 -13 -446 -27 -580 -40 -2251 -209 -4378 -1124\n               -6080 -2615 -1286 -1126 -2289 -2542 -2914 -4116 -405 -1018 -645 -2058 -731\n               -3163 -11 -149 -34 -672 -35 -802 0 -17 180 -18 3635 -18 l3635 0 0 4620 0\n               4620 3495 0 3495 0 0 -1095 0 -1095 -2090 0 -2090 0 0 -650 0 -650 1695 0\n               1695 0 0 -1030 0 -1030 -1690 0 -1690 0 0 -242 c0 -134 -3 -476 -7 -760 l-6\n               -518 2091 0 2092 0 0 -1085 0 -1085 1205 0 1205 0 0 158 c0 374 42 895 110\n               1373 262 1831 1028 3621 2170 5069 74 94 139 177 144 185 12 17 -25 65 -221\n               290 -638 729 -1357 1359 -2158 1890 -418 277 -702 442 -1145 664 -1289 645\n               -2617 1003 -4120 1111 -143 11 -983 21 -1110 14z\" data-v-317d1a6e></path><path d=\"M23916 13008 c-3 -299 -7 -779 -8 -1068 l-3 -525 1900 -5 1901 -5\n               -2058 -2690 -2058 -2690 0 -857 0 -858 3860 0 3860 0 0 1080 0 1080 -2048 2\n               -2049 3 1844 2435 c1014 1339 1904 2515 1978 2614 l135 178 -2 922 -3 921\n               -3621 3 -3621 2 -7 -542z\" data-v-317d1a6e></path></g></svg></a><!-- &lt;span class=&quot;logoName&quot;&gt;OFFICE&lt;/span&gt; --></div>", 1);
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-v-317d1a6e><a href=\"\" data-v-317d1a6e><svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" width=\"80px\" height=\"80px\" viewBox=\"0 0 3819.000000 3106.000000\" preserveAspectRatio=\"xMidYMid meet\" data-v-317d1a6e><g transform=\"translate(0.000000,3106.000000) scale(0.100000,-0.100000)\" fill=\"#000000\" stroke=\"none\" data-v-317d1a6e><path d=\"M26730 31040 c-1279 -90 -2422 -458 -3360 -1083 -254 -169 -421 -306\n               -835 -683 -1122 -1023 -2098 -1992 -3134 -3114 -139 -151 -274 -295 -300 -320\n               -25 -25 -152 -157 -281 -295 -426 -454 -1778 -1792 -1801 -1783 -8 4 -371 392\n               -939 1004 -659 710 -901 965 -1210 1277 -935 947 -1466 1316 -2365 1646 -437\n               160 -782 248 -1189 304 -141 19 -205 22 -521 21 -384 0 -459 -6 -752 -59 -702\n               -129 -1362 -438 -1942 -909 -1018 -826 -1620 -2141 -1577 -3443 35 -1081 420\n               -2033 1143 -2825 327 -358 777 -700 1198 -910 458 -230 983 -386 1525 -453\n               175 -22 603 -31 782 -16 789 66 1431 321 2103 836 306 235 530 439 1236 1125\n               178 173 434 421 569 550 532 510 1931 1830 1941 1830 6 0 224 -233 1487 -1584\n               294 -314 553 -589 576 -611 23 -22 118 -121 212 -220 1429 -1520 2511 -2605\n               3173 -3183 348 -304 621 -516 863 -666 251 -157 745 -400 1128 -554 1497 -602\n               3041 -718 4544 -341 1096 274 2194 844 3056 1585 259 223 587 563 824 853\n               1425 1747 1985 3926 1565 6095 -202 1045 -615 1999 -1248 2881 -593 827 -1424\n               1580 -2296 2080 -922 529 -1938 852 -2995 951 -203 19 -976 28 -1180 14z m935\n               -3040 c691 -64 1327 -287 1925 -675 397 -257 814 -645 1097 -1020 468 -621\n               761 -1398 838 -2224 17 -190 20 -616 4 -796 -97 -1131 -732 -2294 -1614 -2955\n               -669 -502 -1413 -812 -2195 -917 -194 -26 -737 -26 -930 0 -657 89 -1303 333\n               -1796 680 -411 288 -1339 1145 -2229 2057 -751 770 -1346 1353 -1477 1448 -75\n               53 -77 64 -26 125 318 387 1025 1163 1758 1932 376 394 566 599 770 830 92\n               105 191 213 221 240 70 65 270 226 429 345 778 580 1633 892 2585 944 113 6\n               521 -3 640 -14z\" data-v-317d1a6e></path><path d=\"M10340 15094 c-238 -13 -446 -27 -580 -40 -2251 -209 -4378 -1124\n               -6080 -2615 -1286 -1126 -2289 -2542 -2914 -4116 -405 -1018 -645 -2058 -731\n               -3163 -11 -149 -34 -672 -35 -802 0 -17 180 -18 3635 -18 l3635 0 0 4620 0\n               4620 3495 0 3495 0 0 -1095 0 -1095 -2090 0 -2090 0 0 -650 0 -650 1695 0\n               1695 0 0 -1030 0 -1030 -1690 0 -1690 0 0 -242 c0 -134 -3 -476 -7 -760 l-6\n               -518 2091 0 2092 0 0 -1085 0 -1085 1205 0 1205 0 0 158 c0 374 42 895 110\n               1373 262 1831 1028 3621 2170 5069 74 94 139 177 144 185 12 17 -25 65 -221\n               290 -638 729 -1357 1359 -2158 1890 -418 277 -702 442 -1145 664 -1289 645\n               -2617 1003 -4120 1111 -143 11 -983 21 -1110 14z\" data-v-317d1a6e></path><path d=\"M23916 13008 c-3 -299 -7 -779 -8 -1068 l-3 -525 1900 -5 1901 -5\n               -2058 -2690 -2058 -2690 0 -857 0 -858 3860 0 3860 0 0 1080 0 1080 -2048 2\n               -2049 3 1844 2435 c1014 1339 1904 2515 1978 2614 l135 178 -2 922 -3 921\n               -3621 3 -3621 2 -7 -542z\" data-v-317d1a6e></path></g></svg></a><!-- &lt;span class=&quot;logoName&quot;&gt;OFFICE&lt;/span&gt; --></div>", 1);
 
-var _hoisted_3 = {
+var _hoisted_5 = {
   "class": "navigation"
 };
 
-var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    href: "#home"
-  }, "Home")], -1
-  /* HOISTED */
-  );
-});
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<li data-v-317d1a6e><a href=\"#home\" data-v-317d1a6e>Home</a></li><li data-v-317d1a6e><a href=\"#equipe\" data-v-317d1a6e>Equipes</a></li><li data-v-317d1a6e><a href=\"#chat\" data-v-317d1a6e>Chat</a></li><li data-v-317d1a6e><a href=\"#tarefas\" data-v-317d1a6e>Tarefas</a></li><li data-v-317d1a6e><a href=\"#team\" data-v-317d1a6e>Sobre nós</a></li>", 5);
 
-var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    href: "#equipe"
-  }, "Equipes")], -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    href: "#chat"
-  }, "Chat")], -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    href: "#tarefas"
-  }, "Tarefas")], -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_8 = {
+var _hoisted_11 = {
   key: 0
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" DashBoard ");
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" DashBoard ");
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Entrar ");
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Entrar ");
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Registrar ");
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Registrar ");
 
-var _hoisted_12 = {
+var _hoisted_15 = {
   "class": "content"
 };
-var _hoisted_13 = {
+var _hoisted_16 = {
   "class": "text"
 };
 
-var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Ez"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
     style: {
       "color": "#3766DD"
@@ -28494,15 +28557,15 @@ var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_15 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_18 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?", -1
   /* HOISTED */
   );
 });
 
-var _hoisted_16 = ["href"];
+var _hoisted_19 = ["href"];
 
-var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "divImg"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -28516,30 +28579,32 @@ var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_18 = {
+var _hoisted_21 = {
   "class": "footer"
 };
-var _hoisted_19 = {
-  "class": "sci"
-};
-var _hoisted_20 = {
-  href: "#"
-};
-var _hoisted_21 = {
-  href: "#"
-};
 var _hoisted_22 = {
-  href: "#"
+  "class": "sci"
 };
 var _hoisted_23 = {
   href: "#"
 };
+var _hoisted_24 = {
+  href: "#"
+};
+var _hoisted_25 = {
+  href: "#"
+};
+var _hoisted_26 = {
+  href: "#"
+};
 
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"main\" id=\"equipe\" data-v-317d1a6e><div class=\"content\" data-v-317d1a6e><div class=\"divImg\" data-v-317d1a6e><div class=\"divImg2\" data-v-317d1a6e><img src=\"https://i.ibb.co/s9cPnMN/img2.png\" alt=\"\" class=\"img1\" data-v-317d1a6e></div></div><div class=\"text\" style=\"text-align:right;\" data-v-317d1a6e><h2 data-v-317d1a6e>Eq<i style=\"color:#3766DD;\" data-v-317d1a6e>ui</i>pes<br data-v-317d1a6e><span data-v-317d1a6e>Todos em um só lugar</span></h2><p data-v-317d1a6e>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p></div></div></section>", 1);
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"main\" id=\"equipe\" data-v-317d1a6e><div class=\"content\" data-v-317d1a6e><div class=\"divImg\" data-v-317d1a6e><div class=\"divImg2\" data-v-317d1a6e><img src=\"https://i.ibb.co/s9cPnMN/img2.png\" alt=\"\" class=\"img1\" data-v-317d1a6e></div></div><div class=\"text\" style=\"text-align:right;\" data-v-317d1a6e><h2 data-v-317d1a6e>Eq<i style=\"color:#3766DD;\" data-v-317d1a6e>ui</i>pes<br data-v-317d1a6e><span data-v-317d1a6e>Todos em um só lugar</span></h2><p data-v-317d1a6e>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p></div></div></section>", 1);
 
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"main\" id=\"chat\" data-v-317d1a6e><div class=\"content\" data-v-317d1a6e><div class=\"text\" data-v-317d1a6e><h2 data-v-317d1a6e>Ch<i style=\"color:#3766DD;\" data-v-317d1a6e>a</i>t<br data-v-317d1a6e><span data-v-317d1a6e>Organize sua rotina</span></h2><p data-v-317d1a6e>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p></div><div class=\"divImg\" data-v-317d1a6e><div class=\"divImg2\" data-v-317d1a6e><img src=\"https://i.ibb.co/kXksTgh/img3.png\" alt=\"\" class=\"img1\" data-v-317d1a6e></div></div></div></section>", 1);
+var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"main\" id=\"chat\" data-v-317d1a6e><div class=\"content\" data-v-317d1a6e><div class=\"text\" data-v-317d1a6e><h2 data-v-317d1a6e>Ch<i style=\"color:#3766DD;\" data-v-317d1a6e>a</i>t<br data-v-317d1a6e><span data-v-317d1a6e>Organize sua rotina</span></h2><p data-v-317d1a6e>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p></div><div class=\"divImg\" data-v-317d1a6e><div class=\"divImg2\" data-v-317d1a6e><img src=\"https://i.ibb.co/kXksTgh/img3.png\" alt=\"\" class=\"img1\" data-v-317d1a6e></div></div></div></section>", 1);
 
-var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"main\" id=\"tarefas\" data-v-317d1a6e><div class=\"content\" data-v-317d1a6e><div class=\"divImg\" data-v-317d1a6e><div class=\"divImg2\" data-v-317d1a6e><img src=\"https://i.ibb.co/YD2xpRg/img4.png\" alt=\"\" class=\"img1\" data-v-317d1a6e></div></div><div class=\"text\" style=\"text-align:right;\" data-v-317d1a6e><h2 data-v-317d1a6e>Ta<i style=\"color:#3766DD;\" data-v-317d1a6e>ref</i>as<br data-v-317d1a6e><span data-v-317d1a6e>Um jeito simples de se comunicar</span></h2><p data-v-317d1a6e>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p></div></div></section>", 1);
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"main\" id=\"tarefas\" data-v-317d1a6e><div class=\"content\" data-v-317d1a6e><div class=\"divImg\" data-v-317d1a6e><div class=\"divImg2\" data-v-317d1a6e><img src=\"https://i.ibb.co/YD2xpRg/img4.png\" alt=\"\" class=\"img1\" data-v-317d1a6e></div></div><div class=\"text\" style=\"text-align:right;\" data-v-317d1a6e><h2 data-v-317d1a6e>Ta<i style=\"color:#3766DD;\" data-v-317d1a6e>ref</i>as<br data-v-317d1a6e><span data-v-317d1a6e>Um jeito simples de se comunicar</span></h2><p data-v-317d1a6e>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p></div></div></section><section class=\"main\" id=\"team\" data-v-317d1a6e><h2 class=\"teamH2\" style=\"text-align:center;\" data-v-317d1a6e>Nossa <i style=\"color:#3766DD;\" data-v-317d1a6e>Equipe</i><br data-v-317d1a6e><span class=\"teamSpan\" data-v-317d1a6e>Conheçam os desenvolvedores</span></h2><div class=\"content\" data-v-317d1a6e><!-- &lt;div class=&quot;divImg&quot;&gt;\n                &lt;div class=&quot;divImg2&quot;&gt;\n                    &lt;img src=&quot;https://i.ibb.co/YD2xpRg/img4.png&quot; alt=&quot;&quot; class=&quot;img1&quot;&gt;\n                &lt;/div&gt;\n            &lt;/div&gt;\n            &lt;div class=&quot;text&quot; style=&quot;text-align: right;&quot;&gt;\n                &lt;h2&gt;Ta&lt;i style=&quot;color: #3766DD;&quot;&gt;ref&lt;/i&gt;as&lt;br&gt;&lt;span&gt;Um jeito simples de se comunicar&lt;/span&gt;&lt;/h2&gt;\n                &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?&lt;/p&gt;\n            &lt;/div&gt; --><!-- team start --><!--1st member--><div class=\"col-md-3 col-sm-6\" data-v-317d1a6e><div class=\"our-team\" data-v-317d1a6e><div class=\"pic\" data-v-317d1a6e><img src=\"https://cdn-icons-png.flaticon.com/512/149/149071.png\" data-v-317d1a6e></div><h3 class=\"title\" data-v-317d1a6e>Laissa R. Almeida</h3><span class=\"post\" data-v-317d1a6e>Designer UX, Analista de Sistemas</span><!--social icon--></div></div><!--2nd member--><div class=\"col-md-3 col-sm-6\" data-v-317d1a6e><div class=\"our-team\" data-v-317d1a6e><div class=\"pic\" data-v-317d1a6e><img src=\"https://cdn-icons-png.flaticon.com/512/149/149071.png\" data-v-317d1a6e></div><h3 class=\"title\" data-v-317d1a6e>Isabella R. Lima</h3><span class=\"post\" data-v-317d1a6e>Designer UI, Desenvolvedora BackEnd</span><!--social Icon--></div></div><!--3rd member--><div class=\"col-md-3 col-sm-6\" data-v-317d1a6e><div class=\"our-team\" data-v-317d1a6e><div class=\"pic\" data-v-317d1a6e><img src=\"https://cdn-icons-png.flaticon.com/512/149/149071.png\" data-v-317d1a6e></div><h3 class=\"title\" data-v-317d1a6e>Álef de Souza Rosa</h3><span class=\"post\" data-v-317d1a6e>Desenvolvedor FullStack, Analista de Sistemas, Web Designer, Ilustrador</span><!--social icon--></div></div><!--4th member--><div class=\"col-md-3 col-sm-6\" data-v-317d1a6e><div class=\"our-team\" data-v-317d1a6e><div class=\"pic\" data-v-317d1a6e><img src=\"https://cdn-icons-png.flaticon.com/512/149/149071.png\" data-v-317d1a6e></div><h3 class=\"title\" data-v-317d1a6e>João P. C. S. Sedenho</h3><span class=\"post\" data-v-317d1a6e>Desenvolvedor de Games, Cosplay de Pikachu</span><!--social icon--></div></div><!--5th member--><div class=\"col-md-3 col-sm-6\" data-v-317d1a6e><div class=\"our-team\" data-v-317d1a6e><div class=\"pic\" data-v-317d1a6e><img src=\"https://cdn-icons-png.flaticon.com/512/149/149071.png\" data-v-317d1a6e></div><h3 class=\"title\" data-v-317d1a6e>Pedro F. B. Teles</h3><span class=\"post\" data-v-317d1a6e>Designer, Analista de Sistemas</span><!--social icon--></div></div><!-- team end --></div></section>", 2);
+
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<footer id=\"footer\" class=\"footer-1 bg-gray-100 py-8 sm:py-12\" data-v-317d1a6e><div class=\"container mx-auto px-4\" data-v-317d1a6e><div class=\"sm:flex sm:flex-wrap sm:-mx-4 md:py-4\" data-v-317d1a6e><div class=\"px-4 sm:w-1/2 md:w-1/4 xl:w-1/6\" data-v-317d1a6e><h5 class=\"text-xl font-bold mb-6\" data-v-317d1a6e>Novidades</h5><ul class=\"list-none footer-links\" data-v-317d1a6e><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" disabled data-v-317d1a6e>Design Repaginado</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" disabled data-v-317d1a6e>Nova plataforma</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" disabled data-v-317d1a6e>Opções de API Token</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" disabled data-v-317d1a6e>Autenticação de dois fatores</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" disabled data-v-317d1a6e>Mais em breve...</a></li></ul></div><div class=\"px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0\" data-v-317d1a6e><h5 class=\"text-xl font-bold mb-6\" data-v-317d1a6e>Recursos</h5><ul class=\"list-none footer-links\" data-v-317d1a6e><li class=\"mb-2\" data-v-317d1a6e><a href=\"#equipe\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Equipes</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#chat\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Chat</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#tarefas\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Tarefas</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#notes\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Bloco de Anotações</a></li></ul></div><div class=\"px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0\" data-v-317d1a6e><h5 class=\"text-xl font-bold mb-6\" data-v-317d1a6e>Sobre</h5><ul class=\"list-none footer-links\" data-v-317d1a6e><li class=\"mb-2\" data-v-317d1a6e><a href=\"#team\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Nosso time</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Localização</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Privacidade</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Termos</a></li></ul></div><div class=\"px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0\" data-v-317d1a6e><h5 class=\"text-xl font-bold mb-6\" data-v-317d1a6e>Ajuda</h5><ul class=\"list-none footer-links\" data-v-317d1a6e><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Suporte</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Centro de ajuda</a></li><li class=\"mb-2\" data-v-317d1a6e><a href=\"#footer\" class=\"border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800\" data-v-317d1a6e>Entre em contato</a></li></ul></div><div class=\"px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto\" data-v-317d1a6e><h5 class=\"text-xl font-bold mb-6 sm:text-center xl:text-left\" data-v-317d1a6e>Permaneça conectado</h5><div class=\"flex sm:justify-center xl:justify-start\" data-v-317d1a6e><a href=\"\" class=\"w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600\" data-v-317d1a6e><i class=\"fab fa-facebook\" data-v-317d1a6e></i></a><a href=\"\" class=\"w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600\" data-v-317d1a6e><i class=\"fab fa-twitter\" data-v-317d1a6e></i></a><a href=\"\" class=\"w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600\" data-v-317d1a6e><i class=\"fab fa-instagram\" data-v-317d1a6e></i></a></div></div></div><div class=\"sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t\" data-v-317d1a6e><div class=\"sm:w-full px-4 md:w-1/6\" data-v-317d1a6e><!-- &lt;strong&gt;EzOffice&lt;/strong&gt; --><svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" width=\"90px\" height=\"90px\" viewBox=\"0 0 3819.000000 3106.000000\" preserveAspectRatio=\"xMidYMid meet\" data-v-317d1a6e><g transform=\"translate(0.000000,3106.000000) scale(0.100000,-0.100000)\" fill=\"#000000\" stroke=\"none\" data-v-317d1a6e><path d=\"M26730 31040 c-1279 -90 -2422 -458 -3360 -1083 -254 -169 -421 -306\n               -835 -683 -1122 -1023 -2098 -1992 -3134 -3114 -139 -151 -274 -295 -300 -320\n               -25 -25 -152 -157 -281 -295 -426 -454 -1778 -1792 -1801 -1783 -8 4 -371 392\n               -939 1004 -659 710 -901 965 -1210 1277 -935 947 -1466 1316 -2365 1646 -437\n               160 -782 248 -1189 304 -141 19 -205 22 -521 21 -384 0 -459 -6 -752 -59 -702\n               -129 -1362 -438 -1942 -909 -1018 -826 -1620 -2141 -1577 -3443 35 -1081 420\n               -2033 1143 -2825 327 -358 777 -700 1198 -910 458 -230 983 -386 1525 -453\n               175 -22 603 -31 782 -16 789 66 1431 321 2103 836 306 235 530 439 1236 1125\n               178 173 434 421 569 550 532 510 1931 1830 1941 1830 6 0 224 -233 1487 -1584\n               294 -314 553 -589 576 -611 23 -22 118 -121 212 -220 1429 -1520 2511 -2605\n               3173 -3183 348 -304 621 -516 863 -666 251 -157 745 -400 1128 -554 1497 -602\n               3041 -718 4544 -341 1096 274 2194 844 3056 1585 259 223 587 563 824 853\n               1425 1747 1985 3926 1565 6095 -202 1045 -615 1999 -1248 2881 -593 827 -1424\n               1580 -2296 2080 -922 529 -1938 852 -2995 951 -203 19 -976 28 -1180 14z m935\n               -3040 c691 -64 1327 -287 1925 -675 397 -257 814 -645 1097 -1020 468 -621\n               761 -1398 838 -2224 17 -190 20 -616 4 -796 -97 -1131 -732 -2294 -1614 -2955\n               -669 -502 -1413 -812 -2195 -917 -194 -26 -737 -26 -930 0 -657 89 -1303 333\n               -1796 680 -411 288 -1339 1145 -2229 2057 -751 770 -1346 1353 -1477 1448 -75\n               53 -77 64 -26 125 318 387 1025 1163 1758 1932 376 394 566 599 770 830 92\n               105 191 213 221 240 70 65 270 226 429 345 778 580 1633 892 2585 944 113 6\n               521 -3 640 -14z\" data-v-317d1a6e></path><path d=\"M10340 15094 c-238 -13 -446 -27 -580 -40 -2251 -209 -4378 -1124\n               -6080 -2615 -1286 -1126 -2289 -2542 -2914 -4116 -405 -1018 -645 -2058 -731\n               -3163 -11 -149 -34 -672 -35 -802 0 -17 180 -18 3635 -18 l3635 0 0 4620 0\n               4620 3495 0 3495 0 0 -1095 0 -1095 -2090 0 -2090 0 0 -650 0 -650 1695 0\n               1695 0 0 -1030 0 -1030 -1690 0 -1690 0 0 -242 c0 -134 -3 -476 -7 -760 l-6\n               -518 2091 0 2092 0 0 -1085 0 -1085 1205 0 1205 0 0 158 c0 374 42 895 110\n               1373 262 1831 1028 3621 2170 5069 74 94 139 177 144 185 12 17 -25 65 -221\n               290 -638 729 -1357 1359 -2158 1890 -418 277 -702 442 -1145 664 -1289 645\n               -2617 1003 -4120 1111 -143 11 -983 21 -1110 14z\" data-v-317d1a6e></path><path d=\"M23916 13008 c-3 -299 -7 -779 -8 -1068 l-3 -525 1900 -5 1901 -5\n               -2058 -2690 -2058 -2690 0 -857 0 -858 3860 0 3860 0 0 1080 0 1080 -2048 2\n               -2049 3 1844 2435 c1014 1339 1904 2515 1978 2614 l135 178 -2 922 -3 921\n               -3621 3 -3621 2 -7 -542z\" data-v-317d1a6e></path></g></svg></div><div class=\"px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0\" data-v-317d1a6e><h6 class=\"font-bold mb-2\" data-v-317d1a6e>Endereço</h6><address class=\"not-italic mb-4 text-sm\" data-v-317d1a6e> Araraquara, 14800-000<br data-v-317d1a6e> São Paulo, Brasil. </address></div><div class=\"px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0\" data-v-317d1a6e><h6 class=\"font-bold mb-2\" data-v-317d1a6e>TCC - EzOffice®️</h6><p class=\"mb-4 text-sm\" data-v-317d1a6e>Projeto feito para <strong data-v-317d1a6e> TCC</strong>.<br data-v-317d1a6e><em data-v-317d1a6e>(Trabalho de Conclusão de Curso)</em></p></div><div class=\"px-4 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0\" data-v-317d1a6e><button class=\"px-4 py-2 bg-blue-700 hover:bg-blue-900 rounded text-white\" href=\"#equipe\" data-v-317d1a6e>Vamos lá?</button></div></div></div></footer>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -28550,7 +28615,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, {
     title: "EzOffice"
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" teste header "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", null, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_3, [_hoisted_4, _hoisted_5, _hoisted_6, _hoisted_7, _ctx.canLogin ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_8, [_ctx.$page.props.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
+  }), _hoisted_1, _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" teste header "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", null, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_5, [_hoisted_6, _ctx.canLogin ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_11, [_ctx.$page.props.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
     key: 0,
     href: _ctx.route('dashboard'),
     "class": "btnHome",
@@ -28560,7 +28625,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_9];
+      return [_hoisted_12];
     }),
     _: 1
     /* STABLE */
@@ -28578,7 +28643,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_10];
+      return [_hoisted_13];
     }),
     _: 1
     /* STABLE */
@@ -28595,7 +28660,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_11];
+      return [_hoisted_14];
     }),
     _: 1
     /* STABLE */
@@ -28604,20 +28669,20 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , ["href"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)], 64
   /* STABLE_FRAGMENT */
-  ))])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [_hoisted_14, _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  ))])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [_hoisted_17, _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: _ctx.route('login'),
     "class": "btn"
   }, "Entrar", 8
   /* PROPS */
-  , _hoisted_16)]), _hoisted_17]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
+  , _hoisted_19)]), _hoisted_20]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
     name: "logo-facebook"
-  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
     name: "logo-instagram"
-  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
     name: "logo-twitter"
-  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
     name: "logo-linkedin"
-  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" teste header ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section equipes start "), _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section equipes end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section chat start "), _hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section chat end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section tarefas start "), _hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section tarefas end ")], 64
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" teste header ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section equipes start "), _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section equipes end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section chat start "), _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section chat end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section tarefas start "), _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" section tarefas end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" footer start "), _hoisted_31, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" footer end ")], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -29109,7 +29174,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nheader[data-v-317d1a6e]{\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    padding: 10px 100px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    z-index: 1000;\n    background: #fff;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.178);\n}\n.navigation[data-v-317d1a6e]{\n    display: flex;\n}\n.navigation li[data-v-317d1a6e]{\n    list-style: none;\n}\n.navigation li a[data-v-317d1a6e], .btnHome[data-v-317d1a6e]{\n    position: relative;\n    text-decoration: none;\n    margin-left: 40px;\n    transition: 0.25s;\n}\n.navigation li a[data-v-317d1a6e]:hover, .btnHome[data-v-317d1a6e]:hover{\n    letter-spacing: 2px;\n    color: rgb(60, 123, 240);\n}\n\n/* teste */\n*[data-v-317d1a6e]{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: 'Poppins', sans-serif;\n    scroll-behavior: smooth;\n}\n.main[data-v-317d1a6e]{\n    position: relative;\n    min-height: 100vh;\n    background: #ffffff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    padding: 30px 100px;\n}\n.logo[data-v-317d1a6e]{\n    max-width: 90px;\n}\n.logoName[data-v-317d1a6e]{\n    font-size: 1.8em;\n    font-weight: 800;\n    color: black;\n    position: relative;\n    top: -17px;\n}\n.content[data-v-317d1a6e]{\n    position: relative;\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.content .text[data-v-317d1a6e]{\n    width: 100%;\n    max-width: 600px;\n}\n.content .text h2[data-v-317d1a6e]{\n    color: #222629;\n    font-size: 5em;\n    font-weight: 700;\n    line-height: 50px;\n}\n.content .text h2 span[data-v-317d1a6e]{\n    color: rgb(82, 82, 82);\n    font-size: 0.5em;\n    font-weight: 200;\n}\n.content .text p[data-v-317d1a6e]{\n    color: gray;\n    font-weight: 500;\n    font-size: 1.1em;\n    line-height: 1.5em;\n    margin: 20px 0;\n}\n.btn[data-v-317d1a6e]{\n    position: relative;\n    display: inline-block;\n    padding: 20px 50px;\n    background: #3766DD;\n    color: #fff;\n    font-size: 1.1em;\n    font-weight: 500;\n    border-radius: 40px;\n    text-decoration: none;\n    transition: 0.25s;\n}\n.btn[data-v-317d1a6e]:hover{\n    letter-spacing: 2px;\n}\n.divImg[data-v-317d1a6e]{\n    position: relative;\n}\n.divImg2[data-v-317d1a6e]{\n   display: block;\n}\n.img1[data-v-317d1a6e]{\n    width: 100%;\n    max-width: 600px;\n}\n.footer[data-v-317d1a6e]{\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    display: flex;\n    padding: 30px 100px;\n    justify-content: space-between;\n    align-items: flex-end;\n}\n.sci[data-v-317d1a6e]{\n    display: flex;\n}\n.sci li[data-v-317d1a6e]{\n    list-style: none;\n}\n.sci li a[data-v-317d1a6e]{\n    color: black;\n    font-size: 2em;\n    margin-right: 20px;\n    display: inline-block;\n    transition: 0.25s;\n}\n.sci li a[data-v-317d1a6e]:hover{\n    transform: translateY(-5px);\n}\n/* responsive design */\n@media (max-width:991px)\n{\n.main[data-v-317d1a6e]{\n        padding: 40px;\n}\nheader[data-v-317d1a6e]{\n        padding: 20px 40px;\n}\n.logo[data-v-317d1a6e]\n    {\n        max-width: 70px;\n}\n.content[data-v-317d1a6e]{\n        flex-direction: column;\n        margin-top: 120px 0 40px;\n        padding-top: 100px;\n}\n.content .text[data-v-317d1a6e]{\n        max-width: 100%;\n}\n.content .text h2[data-v-317d1a6e]{\n        font-size: 4em;\n}\n.divImg[data-v-317d1a6e]{\n        margin-top: 40px;\n        padding-top: 50px;\n}\n.img1[data-v-317d1a6e] {\n        width: 100%;\n        max-width: 420px;\n}\n.sci[data-v-317d1a6e]{\n        display: none;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nheader[data-v-317d1a6e]{\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    padding: 10px 100px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    z-index: 1000;\n    background: #fff;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.178);\n}\n.navigation[data-v-317d1a6e]{\n    display: flex;\n}\n.navigation li[data-v-317d1a6e]{\n    list-style: none;\n}\n.navigation li a[data-v-317d1a6e], .btnHome[data-v-317d1a6e]{\n    position: relative;\n    text-decoration: none;\n    margin-left: 40px;\n    transition: 0.25s;\n}\n.navigation li a[data-v-317d1a6e]:hover, .btnHome[data-v-317d1a6e]:hover{\n    letter-spacing: 2px;\n    color: rgb(60, 123, 240);\n}\n\n/* teste */\n*[data-v-317d1a6e]{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: 'Poppins', sans-serif;\n    scroll-behavior: smooth;\n}\n.main[data-v-317d1a6e]{\n    position: relative;\n    min-height: 100vh;\n    background: #ffffff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    padding: 30px 100px;\n}\n.logo[data-v-317d1a6e]{\n    max-width: 90px;\n}\n.logoName[data-v-317d1a6e]{\n    font-size: 1.8em;\n    font-weight: 800;\n    color: black;\n    position: relative;\n    top: -17px;\n}\n.content[data-v-317d1a6e]{\n    position: relative;\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.content .text[data-v-317d1a6e]{\n    width: 100%;\n    max-width: 600px;\n}\n.content .text h2[data-v-317d1a6e]{\n    color: #222629;\n    font-size: 5em;\n    font-weight: 700;\n    line-height: 50px;\n}\n.content .text h2 span[data-v-317d1a6e]{\n    color: rgb(82, 82, 82);\n    font-size: 0.5em;\n    font-weight: 200;\n}\n.content .text p[data-v-317d1a6e]{\n    color: gray;\n    font-weight: 500;\n    font-size: 1.1em;\n    line-height: 1.5em;\n    margin: 20px 0;\n}\n.btn[data-v-317d1a6e]{\n    position: relative;\n    display: inline-block;\n    padding: 20px 50px;\n    background: #3766DD;\n    color: #fff;\n    font-size: 1.1em;\n    font-weight: 500;\n    border-radius: 40px;\n    text-decoration: none;\n    transition: 0.25s;\n}\n.btn[data-v-317d1a6e]:hover{\n    letter-spacing: 2px;\n}\n.divImg[data-v-317d1a6e]{\n    position: relative;\n}\n.divImg2[data-v-317d1a6e]{\n   display: block;\n}\n.img1[data-v-317d1a6e]{\n    width: 100%;\n    max-width: 600px;\n}\n.footer[data-v-317d1a6e]{\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    display: flex;\n    padding: 30px 100px;\n    justify-content: space-between;\n    align-items: flex-end;\n}\n.sci[data-v-317d1a6e]{\n    display: flex;\n}\n.sci li[data-v-317d1a6e]{\n    list-style: none;\n}\n.sci li a[data-v-317d1a6e]{\n    color: black;\n    font-size: 2em;\n    margin-right: 20px;\n    display: inline-block;\n    transition: 0.25s;\n}\n.sci li a[data-v-317d1a6e]:hover{\n    transform: translateY(-5px);\n}\n/* responsive design */\n@media (max-width:991px)\n{\n.main[data-v-317d1a6e]{\n        padding: 40px;\n}\nheader[data-v-317d1a6e]{\n        padding: 20px 40px;\n}\n.logo[data-v-317d1a6e]\n    {\n        max-width: 70px;\n}\n.content[data-v-317d1a6e]{\n        flex-direction: column;\n        margin-top: 120px 0 40px;\n        padding-top: 100px;\n}\n.content .text[data-v-317d1a6e]{\n        max-width: 100%;\n}\n.content .text h2[data-v-317d1a6e]{\n        font-size: 4em;\n}\n.divImg[data-v-317d1a6e]{\n        margin-top: 40px;\n        padding-top: 50px;\n}\n.img1[data-v-317d1a6e] {\n        width: 100%;\n        max-width: 420px;\n}\n.sci[data-v-317d1a6e]{\n        display: none;\n}\n}\n/* teste team */\n.teamH2[data-v-317d1a6e]{\n    color: #222629;\n    font-size: 5em;\n    font-weight: 700;\n    line-height: 50px;\n}\n.teamSpan[data-v-317d1a6e]{\n    color: rgb(82, 82, 82);\n    font-size: 0.5em;\n    font-weight: 200;\n}\n.our-team[data-v-317d1a6e]{\n    border-radius: 15px;\n    text-align: center;\n    padding: 20px 15px 30px;\n    margin: 10px;\n    background: #e0e0e0;\n    transition: 0.5s;\nbackground: #ffffff;\nbox-shadow:  7px 7px 14px #cfcfcf,\n             -7px -7px 14px #ffffff,\n             -7px 7px 14px #cfcfcf,\n             7px -7px 14px #ffffff;\n}\n.our-team .pic[data-v-317d1a6e]{\n    background: #fff;\n    padding: 10px;\n    margin-bottom: 25px;\n    display: inline-block;\n    width: 100%;\n    height: 100%;\n    transition: all 0.5s ease 0s;\n}\n.our-team:hover .pic[data-v-317d1a6e]{\n    background: #3766DD;\n    border-radius: 50%;\n}\n.our-team[data-v-317d1a6e]:hover{\n}\n.pic img[data-v-317d1a6e]{\n    width: 100%;\n    height: auto;\n    border-radius: 50%;\n}\n.our-team:hover .title[data-v-317d1a6e]{\n    color: #3766DD;\n}\n.our-team:hover .post[data-v-317d1a6e]{\n    color: #2e282a;\n}\n.our-team .title[data-v-317d1a6e]{\n    font-weight: 600;\n    color: #2e282a;\n    text-transform: uppercase;\n    display: block;\n    font-size: 20px;\n    margin: 0 0 7px 0;\n    transition: 0.5s;\n    cursor: default;\n}\n.our-team .post[data-v-317d1a6e]{\n    color: #3766DD;\n    display: block;\n    font-size: 15px;\n    margin-bottom: 15px;\n    transition: 0.5s;\n    cursor: default;\n}\n/* team end */\n/* footer start */\n\n/* footer end */\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

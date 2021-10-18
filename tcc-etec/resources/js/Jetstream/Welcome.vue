@@ -10,10 +10,12 @@
             </div>
 
             <div class="mt-6 text-gray-500">
-                Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed
-                to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe
-                you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel
-                ecosystem to be a breath of fresh air. We hope you love it.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere at, iusto repudiandae, obcaecati alias commodi nam vel libero corporis iure atque, natus ducimus aspernatur in totam vitae beatae dolore provident?
+            </div>
+
+            <div class="clock">
+                <h2>The time is now</h2>
+                <div class="clockTimer">8:23PM</div>
             </div>
         </div>
 
@@ -87,8 +89,8 @@
             </div>
         </div>
     </div>
+    
 </template>
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
@@ -98,6 +100,7 @@
     background: #e0e0e0;
 }
 </style>
+
 <script>
     import { defineComponent } from 'vue'
     import JetApplicationLogo from '@/Jetstream/ApplicationLogo.vue'
@@ -107,5 +110,4 @@
             JetApplicationLogo,
         },
     })
-    
 </script>
