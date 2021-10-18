@@ -77,8 +77,9 @@
         <div class="content">
             <div class="text">
                 <h2>Ez<i style="color: #3766DD;">Off</i>ice<br><span>Rápido, prático e fácil</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p>
+                <p>A plataforma que se conecta diretamente aos seus objetivos, perfeita para quem busca praticidade, agilidade e conforto, contando com diversas ferramentas que te auxiliam no seu trabalho.</p>
                 <a :href="route('login')" class="btn">Entrar</a>
+                <a href="#tarefas" class="btn">saiba mais...</a>
             </div>
             <div class="divImg">
                 <div class="divImg2">
@@ -306,13 +307,13 @@
       <div class="px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto">
         <h5 class="text-xl font-bold mb-6 sm:text-center xl:text-left">Permaneça conectado</h5>
         <div class="flex sm:justify-center xl:justify-start">
-          <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
+          <a href="#footer" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
             <i class="fab fa-facebook"></i>
           </a>
-          <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
+          <a href="#footer" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
+          <a href="#footer" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
             <i class="fab fa-instagram"></i>
           </a>
         </div>
@@ -469,7 +470,7 @@ header{
     font-weight: 200;
 }
 .content .text p{
-    color: gray;
+    color: rgb(80, 80, 80);
     font-weight: 500;
     font-size: 1.1em;
     line-height: 1.5em;
@@ -478,17 +479,32 @@ header{
 .btn{
     position: relative;
     display: inline-block;
-    padding: 20px 50px;
+    padding: 10px 40px;
     background: #3766DD;
     color: #fff;
     font-size: 1.1em;
     font-weight: 500;
     border-radius: 40px;
     text-decoration: none;
-    transition: 0.25s;
+    transition: 0.5s;
+    margin-right: 10px;
+    border: 2px solid #3766DD;
+}
+.btn:nth-last-child(1){
+    background: #5d89f800;
+    border: 2px solid #3766DD;
+    color: #3766DD;
+}
+.btn:nth-last-child(1):hover{
+    background: #3766DD;
+    color: #fff;
 }
 .btn:hover{
     letter-spacing: 2px;
+    background: #5d89f800;
+    border: 2px solid #3766DD;
+    color: #3766DD;
+    font-weight: 700;
 }
 .divImg{
     position: relative;
