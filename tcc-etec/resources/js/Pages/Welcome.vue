@@ -108,7 +108,7 @@
             </div>
             <div class="text" style="text-align: right;">
                 <h2>Eq<i style="color: #3766DD;">ui</i>pes<br><span>Todos em um só lugar</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p>
+                <p>Com esta ferramenta é possível criar e gerir sua equipe da melhor maneira, contando com diversas opções e funcionalidades, você também pode interagir com sua equipe através da ferramenta Chat.</p>
             </div>
         </div>
     </section>
@@ -118,7 +118,7 @@
         <div class="content">
             <div class="text">
                 <h2>Ch<i style="color: #3766DD;">a</i>t<br><span>Organize sua rotina</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p>
+                <p>A ferramenta Chat foi feita com a intenção de unir a equipe e facilitar o trabalho compartilhado, auxiliando nas colcaborações e troca de informações no seu Home Office.</p>
             </div>
             <div class="divImg">
                 <div class="divImg2">
@@ -138,7 +138,7 @@
             </div>
             <div class="text" style="text-align: right;">
                 <h2>Ta<i style="color: #3766DD;">ref</i>as<br><span>Um jeito simples de se comunicar</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur tempore quos, ex dolore repudiandae iure facilis porro recusandae, quo non et reiciendis corrupti? Porro natus voluptates aliquam distinctio molestias?</p>
+                <p>Nosso objetivo é trazer a praticidade à sua rotina, com a ferramenta de tarefas será fácil se organizar e gerir seu dia a dia, sendo uma ótima forma de gerenciar suas atividades a serem realizadas.</p>
             </div>
         </div>
     </section>
