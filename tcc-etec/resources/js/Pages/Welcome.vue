@@ -160,7 +160,7 @@
                 <div class="col-md-3 col-sm-6">
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
+                                        <img src="https://i.ibb.co/XtYxq2q/Sem-T-tulo-3.jpg">
                                     </div>
                                     <h3 class="title">Laissa R. Almeida</h3>
                                     <span class="post">Designer UX, Analista de Sistemas</span>
@@ -175,7 +175,7 @@
                             <div class="col-md-3 col-sm-6">
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
+                                        <img src="https://i.ibb.co/cDn7WTr/Sem-T-tulo-1.jpg">
                                     </div>
                                     <h3 class="title">Isabella R. Lima</h3>
                                     <span class="post">Designer UI, Desenvolvedora BackEnd</span>
@@ -190,7 +190,7 @@
                             <div class="col-md-3 col-sm-6">
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
+                                        <img src="https://i.ibb.co/H7PG7m4/fdfdfdsf.jpg">
                                     </div>
                                     <h3 class="title">Álef de Souza Rosa</h3>
                                     <span class="post">Desenvolvedor FullStack, Analista de Sistemas, Web Designer, Ilustrador</span>
@@ -205,7 +205,7 @@
                             <div class="col-md-3 col-sm-6">
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
+                                        <img src="https://i.ibb.co/stLPcBQ/Sem-T-tulo-4.jpg">
                                     </div>
                                     <h3 class="title">João P. C. S. Sedenho</h3>
                                     <span class="post">Desenvolvedor de Games, Cosplay de Pikachu</span>
@@ -219,7 +219,7 @@
                             <div class="col-md-3 col-sm-6">
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
+                                        <img src="https://i.ibb.co/ThN4JwM/Sem-T-tulo-2.jpg">
                                     </div>
                                     <h3 class="title">Pedro F. B. Teles</h3>
                                     <span class="post">Designer, Analista de Sistemas</span>
